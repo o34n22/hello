@@ -12,7 +12,7 @@ what if there is a number with two nearest permutations?
 import random as rd
 import numpy as np
 
-def make_n(target=5000):
+def make_n(target=500):
     """
     returns str
     (a random integer with same number of digits as target number)
@@ -29,7 +29,7 @@ def make_n(target=5000):
 # to-do: catch type errors
 def permutations(n):
     """
-    takes some integer n as a string
+    takes some integer n as a str or int
     produces list of all permutations
     """
     if type(n) == int: n = str(n)
@@ -45,7 +45,7 @@ def permutations(n):
                 L.append(n[i] + p)
     return L
 
-def find_nearest(n,target=5000):
+def find_nearest(n,target=500):
     P = permutations(n)
     D = target*np.ones(len(P),dtype=int)
     j = 0
@@ -59,11 +59,17 @@ def find_nearest(n,target=5000):
 
 # --------------- testing ----------------
 
+def make_n1():
+    b = make_n()
+    if b == find_nearest(b): 
+        b = rd.choice(permutations(b)[1:])
+    return b
+
 def play():
     b = make_n()
     if b == find_nearest(b): 
         b = rd.choice(permutations(b)[1:])
-    print('Rearrange the digits of %s to get the nearest number to %d!' % (b,5000))
+    print('Rearrange the digits of %s to get the nearest number to %d!' % (b,500))
     while True:
         ans = input('->')
         if ans == find_nearest(b):
