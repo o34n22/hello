@@ -3,6 +3,7 @@
 """
 Created on Mon Jul 15 09:45:44 2019
 
+fix:
 what if there is a number with two nearest permutations?
 
 @author: mig
@@ -13,7 +14,8 @@ import numpy as np
 
 def make_n(target=5000):
     """
-    makes a random number with the same number of digits as the target number
+    returns str
+    (a random integer with same number of digits as target number)
     """
     while True:
         digits = len(str(target))
@@ -21,7 +23,8 @@ def make_n(target=5000):
         for position in range(digits):
             place_value = 10**position
             n += place_value*rd.randint(0,9)
-        if len(str(n)) == digits: return str(n)
+        if len(str(n)) == digits: 
+            return str(n)
 
 # to-do: catch type errors
 def permutations(n):
@@ -72,3 +75,4 @@ def play():
     return None
 
 #play()
+#print(type(find_nearest('3876')))
