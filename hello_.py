@@ -3,7 +3,8 @@
 #a = os.path.join(os.sep,basedir,'mathplay')
 #os.sys.path.append(a)
 
-from flask import Flask, request, make_response, session, redirect, render_template
+from flask import Flask, request, make_response, session, redirect,\
+                    render_template, url_for
 from flask_bootstrap import Bootstrap
 from flask_wtf import Form
 from wtforms import IntegerField, StringField, SubmitField
@@ -41,6 +42,7 @@ def page3():
     number = nn.make_n()
     return '<h1>%s</h1>' % str(number)
 
+
 @app.route('/page4',methods=['GET','POST'])
 def page4():
     answer = None
@@ -49,7 +51,9 @@ def page4():
     if form.validate_on_submit():
         answer = form.answer.data
         form.answer.data = ''
-    return render_template('page4.html', form=form, number=number, answer=answer)
+        return redirect(url_for('page4'))
+    return render_template('page4.html', form=form,\
+                           number=number, answer=answer)
 
 
 
