@@ -1,0 +1,194 @@
+INFO: 2019-08-25 10:44:59,853  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2019-08-25 10:44:59,853  * Restarting with stat
+WARNING: 2019-08-25 10:44:59,988  * Debugger is active!
+INFO: 2019-08-25 10:44:59,988  * Debugger PIN: 209-981-609
+INFO: 2019-08-25 10:45:05,435 127.0.0.1 - - [25/Aug/2019 10:45:05] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-25 10:45:13,520 567
+INFO: 2019-08-25 10:45:13,521 127.0.0.1 - - [25/Aug/2019 10:45:13] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-25 10:45:13,572 127.0.0.1 - - [25/Aug/2019 10:45:13] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-25 10:45:21,713 298
+INFO: 2019-08-25 10:45:21,714 127.0.0.1 - - [25/Aug/2019 10:45:21] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-25 10:45:21,834 127.0.0.1 - - [25/Aug/2019 10:45:21] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-25 11:46:45,949 The CSRF token has expired.
+INFO: 2019-08-25 11:46:45,953 127.0.0.1 - - [25/Aug/2019 11:46:45] "POST /page4 HTTP/1.1" 200 -
+INFO: 2019-08-25 11:46:46,733 127.0.0.1 - - [25/Aug/2019 11:46:46] "GET /static/favicon.ico HTTP/1.1" 200 -
+ERROR: 2019-08-25 11:46:46,735 Error on request:
+Traceback (most recent call last):
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO: 2019-08-25 11:46:51,857 461
+INFO: 2019-08-25 11:46:51,859 127.0.0.1 - - [25/Aug/2019 11:46:51] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-25 11:46:52,011 127.0.0.1 - - [25/Aug/2019 11:46:52] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-25 11:46:56,809 127.0.0.1 - - [25/Aug/2019 11:46:56] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-25 11:47:02,255 533
+INFO: 2019-08-25 11:47:02,256 127.0.0.1 - - [25/Aug/2019 11:47:02] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-25 11:47:02,278 127.0.0.1 - - [25/Aug/2019 11:47:02] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-25 11:47:05,708 127.0.0.1 - - [25/Aug/2019 11:47:05] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-25 11:47:13,452 211
+INFO: 2019-08-25 11:47:13,454 127.0.0.1 - - [25/Aug/2019 11:47:13] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-25 11:47:13,537 127.0.0.1 - - [25/Aug/2019 11:47:13] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-25 11:49:29,458  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-25 11:49:29,497  * Restarting with stat
+WARNING: 2019-08-25 11:49:29,830  * Debugger is active!
+INFO: 2019-08-25 11:49:29,831  * Debugger PIN: 209-981-609
+INFO: 2019-08-25 15:28:24,062  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-25 15:28:24,109  * Restarting with stat
+WARNING: 2019-08-25 15:28:24,394  * Debugger is active!
+INFO: 2019-08-25 15:28:24,395  * Debugger PIN: 209-981-609
+INFO: 2019-08-25 15:30:01,144  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-25 15:30:01,166  * Restarting with stat
+WARNING: 2019-08-25 15:30:01,298  * Debugger is active!
+INFO: 2019-08-25 15:30:01,298  * Debugger PIN: 209-981-609
+INFO: 2019-08-25 15:35:04,644  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-25 15:35:04,665  * Restarting with stat
+WARNING: 2019-08-27 18:31:33,443  * Debugger is active!
+INFO: 2019-08-27 18:31:33,443  * Debugger PIN: 209-981-609
+INFO: 2019-08-27 18:31:40,225 287
+INFO: 2019-08-27 18:31:40,228 127.0.0.1 - - [27/Aug/2019 18:31:40] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-27 18:31:40,316 127.0.0.1 - - [27/Aug/2019 18:31:40] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-27 18:31:46,015 386
+INFO: 2019-08-27 18:31:46,017 127.0.0.1 - - [27/Aug/2019 18:31:46] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-27 18:31:46,040 127.0.0.1 - - [27/Aug/2019 18:31:46] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-27 18:31:53,802 99
+INFO: 2019-08-27 18:31:53,803 127.0.0.1 - - [27/Aug/2019 18:31:53] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-27 18:31:53,824 127.0.0.1 - - [27/Aug/2019 18:31:53] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-27 18:32:01,998 370
+INFO: 2019-08-27 18:32:01,999 127.0.0.1 - - [27/Aug/2019 18:32:01] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-27 18:32:02,022 127.0.0.1 - - [27/Aug/2019 18:32:02] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-30 03:13:12,805  * Detected change in '/home/mig/Documents/hello/mathplay/arithmetic/nearest_number_2.py', reloading
+INFO: 2019-08-30 20:51:15,938  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2019-08-30 20:51:15,938  * Restarting with stat
+WARNING: 2019-08-30 20:51:16,155  * Debugger is active!
+INFO: 2019-08-30 20:51:16,158  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 16:36:29,032  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2019-08-31 16:36:29,033  * Restarting with stat
+WARNING: 2019-08-31 16:36:29,251  * Debugger is active!
+INFO: 2019-08-31 16:36:29,254  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 16:36:33,383 127.0.0.1 - - [31/Aug/2019 16:36:33] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:36:33,907 127.0.0.1 - - [31/Aug/2019 16:36:33] "GET /static/favicon.ico HTTP/1.1" 200 -
+ERROR: 2019-08-31 16:36:33,910 Error on request:
+Traceback (most recent call last):
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO: 2019-08-31 16:36:37,636 127.0.0.1 - - [31/Aug/2019 16:36:37] "POST /page4 HTTP/1.1" 500 -
+INFO: 2019-08-31 16:36:37,707 127.0.0.1 - - [31/Aug/2019 16:36:37] "GET /page4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO: 2019-08-31 16:36:37,707 127.0.0.1 - - [31/Aug/2019 16:36:37] "GET /page4?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO: 2019-08-31 16:36:37,711 127.0.0.1 - - [31/Aug/2019 16:36:37] "GET /page4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO: 2019-08-31 16:36:37,834 127.0.0.1 - - [31/Aug/2019 16:36:37] "GET /page4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO: 2019-08-31 16:36:37,893 127.0.0.1 - - [31/Aug/2019 16:36:37] "GET /page4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO: 2019-08-31 16:38:03,170  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-31 16:38:03,200  * Restarting with stat
+WARNING: 2019-08-31 16:38:03,417  * Debugger is active!
+INFO: 2019-08-31 16:38:03,418  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 16:38:09,033 127.0.0.1 - - [31/Aug/2019 16:38:09] "POST /page4 HTTP/1.1" 500 -
+INFO: 2019-08-31 16:38:09,111 127.0.0.1 - - [31/Aug/2019 16:38:09] "GET /page4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO: 2019-08-31 16:38:09,130 127.0.0.1 - - [31/Aug/2019 16:38:09] "GET /page4?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO: 2019-08-31 16:38:09,132 127.0.0.1 - - [31/Aug/2019 16:38:09] "GET /page4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO: 2019-08-31 16:38:09,301 127.0.0.1 - - [31/Aug/2019 16:38:09] "GET /page4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO: 2019-08-31 16:38:13,535 127.0.0.1 - - [31/Aug/2019 16:38:13] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:38:16,398 127.0.0.1 - - [31/Aug/2019 16:38:16] "POST /page4 HTTP/1.1" 500 -
+INFO: 2019-08-31 16:38:16,458 127.0.0.1 - - [31/Aug/2019 16:38:16] "GET /page4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO: 2019-08-31 16:38:16,460 127.0.0.1 - - [31/Aug/2019 16:38:16] "GET /page4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO: 2019-08-31 16:38:16,461 127.0.0.1 - - [31/Aug/2019 16:38:16] "GET /page4?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO: 2019-08-31 16:38:16,653 127.0.0.1 - - [31/Aug/2019 16:38:16] "GET /page4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO: 2019-08-31 16:48:25,707  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2019-08-31 16:48:25,708  * Restarting with stat
+WARNING: 2019-08-31 16:48:25,925  * Debugger is active!
+INFO: 2019-08-31 16:48:25,929  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 16:48:33,173 127.0.0.1 - - [31/Aug/2019 16:48:33] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:48:33,284 127.0.0.1 - - [31/Aug/2019 16:48:33] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:48:35,518 127.0.0.1 - - [31/Aug/2019 16:48:35] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:48:40,454 127.0.0.1 - - [31/Aug/2019 16:48:40] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:48:40,470 127.0.0.1 - - [31/Aug/2019 16:48:40] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:48:43,488 127.0.0.1 - - [31/Aug/2019 16:48:43] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:48:43,505 127.0.0.1 - - [31/Aug/2019 16:48:43] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:51:02,461  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-31 16:51:02,489  * Restarting with stat
+WARNING: 2019-08-31 16:51:02,716  * Debugger is active!
+INFO: 2019-08-31 16:51:02,717  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 16:51:08,994 127.0.0.1 - - [31/Aug/2019 16:51:08] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:51:09,096 127.0.0.1 - - [31/Aug/2019 16:51:09] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:51:59,214 127.0.0.1 - - [31/Aug/2019 16:51:59] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:51:59,240 127.0.0.1 - - [31/Aug/2019 16:51:59] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:52:04,439 127.0.0.1 - - [31/Aug/2019 16:52:04] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:52:04,458 127.0.0.1 - - [31/Aug/2019 16:52:04] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:57:40,465  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-31 16:57:40,492  * Restarting with stat
+WARNING: 2019-08-31 16:57:40,713  * Debugger is active!
+INFO: 2019-08-31 16:57:40,713  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 16:57:44,096 127.0.0.1 - - [31/Aug/2019 16:57:44] "POST /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:57:48,751 127.0.0.1 - - [31/Aug/2019 16:57:48] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:57:48,774 127.0.0.1 - - [31/Aug/2019 16:57:48] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:58:27,176  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-31 16:58:27,203  * Restarting with stat
+WARNING: 2019-08-31 16:58:27,430  * Debugger is active!
+INFO: 2019-08-31 16:58:27,430  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 16:58:35,618 127.0.0.1 - - [31/Aug/2019 16:58:35] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:58:35,715 127.0.0.1 - - [31/Aug/2019 16:58:35] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:58:39,816 127.0.0.1 - - [31/Aug/2019 16:58:39] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:58:39,834 127.0.0.1 - - [31/Aug/2019 16:58:39] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 16:59:54,280  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-31 16:59:54,307  * Restarting with stat
+WARNING: 2019-08-31 16:59:54,532  * Debugger is active!
+INFO: 2019-08-31 16:59:54,533  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 16:59:57,593 127.0.0.1 - - [31/Aug/2019 16:59:57] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 16:59:57,695 127.0.0.1 - - [31/Aug/2019 16:59:57] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:00:00,360 127.0.0.1 - - [31/Aug/2019 17:00:00] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:00:00,380 127.0.0.1 - - [31/Aug/2019 17:00:00] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:00:04,532 127.0.0.1 - - [31/Aug/2019 17:00:04] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:00:04,550 127.0.0.1 - - [31/Aug/2019 17:00:04] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:00:09,477 127.0.0.1 - - [31/Aug/2019 17:00:09] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:00:09,496 127.0.0.1 - - [31/Aug/2019 17:00:09] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:00:13,327 127.0.0.1 - - [31/Aug/2019 17:00:13] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:00:13,345 127.0.0.1 - - [31/Aug/2019 17:00:13] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:00:20,913 127.0.0.1 - - [31/Aug/2019 17:00:20] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:00:20,932 127.0.0.1 - - [31/Aug/2019 17:00:20] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:01:06,197  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-31 17:01:06,225  * Restarting with stat
+WARNING: 2019-08-31 17:01:06,454  * Debugger is active!
+INFO: 2019-08-31 17:01:06,454  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 17:01:09,488  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-08-31 17:01:09,516  * Restarting with stat
+WARNING: 2019-08-31 17:01:09,742  * Debugger is active!
+INFO: 2019-08-31 17:01:09,743  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 17:01:14,941  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2019-08-31 17:01:14,941  * Restarting with stat
+WARNING: 2019-08-31 17:01:15,159  * Debugger is active!
+INFO: 2019-08-31 17:01:15,160  * Debugger PIN: 209-981-609
+INFO: 2019-08-31 17:01:22,022 127.0.0.1 - - [31/Aug/2019 17:01:22] "POST /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:01:25,210 127.0.0.1 - - [31/Aug/2019 17:01:25] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:01:25,227 127.0.0.1 - - [31/Aug/2019 17:01:25] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:01:29,491 127.0.0.1 - - [31/Aug/2019 17:01:29] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:01:29,510 127.0.0.1 - - [31/Aug/2019 17:01:29] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:01:34,074 127.0.0.1 - - [31/Aug/2019 17:01:34] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:01:34,095 127.0.0.1 - - [31/Aug/2019 17:01:34] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:02:02,931 127.0.0.1 - - [31/Aug/2019 17:02:02] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:02:02,951 127.0.0.1 - - [31/Aug/2019 17:02:02] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:02:05,831 127.0.0.1 - - [31/Aug/2019 17:02:05] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:02:05,850 127.0.0.1 - - [31/Aug/2019 17:02:05] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:02:13,891 127.0.0.1 - - [31/Aug/2019 17:02:13] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:02:13,912 127.0.0.1 - - [31/Aug/2019 17:02:13] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:02:22,294 127.0.0.1 - - [31/Aug/2019 17:02:22] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:02:22,310 127.0.0.1 - - [31/Aug/2019 17:02:22] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:02:51,699 127.0.0.1 - - [31/Aug/2019 17:02:51] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:02:51,715 127.0.0.1 - - [31/Aug/2019 17:02:51] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:03:00,260 127.0.0.1 - - [31/Aug/2019 17:03:00] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:03:00,284 127.0.0.1 - - [31/Aug/2019 17:03:00] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:03:04,682 127.0.0.1 - - [31/Aug/2019 17:03:04] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:03:04,701 127.0.0.1 - - [31/Aug/2019 17:03:04] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-08-31 17:03:09,149 127.0.0.1 - - [31/Aug/2019 17:03:09] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-08-31 17:03:09,164 127.0.0.1 - - [31/Aug/2019 17:03:09] "GET /page4 HTTP/1.1" 200 -
