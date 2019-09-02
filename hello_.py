@@ -7,6 +7,7 @@ from wtforms import IntegerField, SubmitField
 from wtforms.validators import Required
 from flask_sqlalchemy import SQLAlchemy
 import logging
+from datetime import datetime
 import mathplay.arithmetic.nearest_number_2 as nn
 
 # --------------- logging -----------------------------------------------
@@ -39,14 +40,16 @@ class Cent(db.Model):
     __tablename__ = 'cents'
     id = db.Column(db.Integer, primary_key=True)
     task_id = db.Column(db.Integer, default=1)
+    timestamp = db.Column(db.DateTime, default=datetime.utcnow)
 #    timedelta = db.Column(db.Interval)
 #    user_id = db.Column(db.Integer, default=1)
 
 #    def __repr__(self):
 #        return '<Role %r>' % self.name
 
-db.create_all()
-db.session.commit()
+db.drop_all()
+db.create_all()           # I don't understand this
+#db.session.commit()      # do I need this at all?
 # -------------- forms --------------------------------------------------
 
 class IntForm(Form):
