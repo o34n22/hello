@@ -32,7 +32,8 @@ def permutations(n):
     takes some integer n as a str or int
     produces list of all permutations
     """
-    if type(n) == int: n = str(n)
+    if type(n) == int: 
+        n = str(n)
     digits = len(n)
     if digits == 0:
         return []
@@ -56,31 +57,41 @@ def solve(n,target=500):
         j+=1
     return P[j_min]
 
+def wrong(num,ans):
+    if str(ans) in permutations(num):
+        message = 'It seems there is a number yet nearer to 500.'
+    elif ans not in permutations(num):
+        message = 'Digits aren\'t matching. You must use the digits from \
+                  the number given.'
+    else:
+        message = "I\'m speechless."
+    return message
+
 
 # --------------- testing ----------------
 
 
-def make_n1():
-    b = make_n()
-    if b == find_nearest(b): 
-        # more efficient: perform one random permutation
-        b = rd.choice(permutations(b)[1:])
-    return b
+#def make_n1():
+#    b = make_n()
+#    if b == find_nearest(b): 
+#        # more efficient: perform one random permutation
+#        b = rd.choice(permutations(b)[1:])
+#    return b
 
-def play():
-    b = make_n()
-    if b == find_nearest(b): 
-        b = rd.choice(permutations(b)[1:])
-    print('Rearrange the digits of %s to get the nearest number to %d!' % (b,500))
-    while True:
-        ans = input('->')
-        if ans == find_nearest(b):
-            print('perfect')
-            break
-        elif ans not in permutations(b):
-            print('Digits aren\'t matching. You must use the digits from \
-                  the number above.')
-    return None
+#def play():
+#    b = make_n()
+#    if b == find_nearest(b): 
+#        b = rd.choice(permutations(b)[1:])
+#    print('Rearrange the digits of %s to get the nearest number to %d!' % (b,500))
+#    while True:
+#        ans = input('->')
+#        if ans == find_nearest(b):
+#            print('perfect')
+#            break
+#        elif ans not in permutations(b):
+#            print('Digits aren\'t matching. You must use the digits from \
+#                  the number above.')
+#    return None
 
 #play()
 #print(type(find_nearest('3876')))

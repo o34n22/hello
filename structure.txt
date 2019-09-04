@@ -1,13 +1,20 @@
 hello
-	mathplay\
-		__init__.py
-		nearest_number.py
-		...
-	templates\
-		base.html
-		...
-	static\
-	forms.py
-	modely.py
-	views.py
-	
+	app
+		mathplay\
+			__init__.py
+			nearest_number.py
+			...
+		templates\
+			base.html
+			...
+		static\
+		forms.py
+		modely.py
+		views.py
+	migrations
+	venv
+	app.db
+	config.py
+	run.py
+	README
+	requirements.txt

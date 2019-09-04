@@ -9,6 +9,7 @@ Created on Fri Aug 30 20:53:11 2019
 #from flask_script import Manager
 from flask import Flask
 import os
+from datetime import datetime
 from flask_sqlalchemy import SQLAlchemy
 
 
@@ -28,7 +29,7 @@ class Cent(db.Model):
     __tablename__ = 'cents'
     id = db.Column(db.Integer, primary_key=True)
     task_id = db.Column(db.Integer, default=1)
-
+    timestamp = db.Column(db.DateTime, default=datetime.utcnow)
 #class Role(db.Model):
 #    __tablename__ = 'roles'
 #    id = db.Column(db.Integer, primary_key=True)
@@ -45,7 +46,9 @@ class Cent(db.Model):
 #    def __repr__(self):
 #        return '<User %r>' % self.username
 
-print(Cent.query.all())
+cents = Cent.query.all()
+for c in cents:
+    print(c.timestamp)
 
 
 

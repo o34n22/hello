@@ -1,0 +1,2613 @@
+.
+├── [-rw-------]  database_schema.txt
+├── [-rw-r--r--]  data.sqlite
+├── [-rw-rw-r--]  db_snippet.py
+├── [-rw-r--r--]  db_snippet.pyc
+├── [-rw-r--r--]  example.log
+├── [-rw-r--r--]  hello_.py
+├── [-rw-r--r--]  hello.py
+├── [-rw-r--r--]  hello.pyc
+├── [drwxr-xr-x]  mathplay
+│   ├── [drwxr-xr-x]  arithmetic
+│   │   ├── [-rw-rw-r--]  adding.py
+│   │   ├── [-rw-r--r--]  __init__.py
+│   │   ├── [-rw-r--r--]  __init__.pyc
+│   │   ├── [-rw-r--r--]  nearest_number_2.py
+│   │   ├── [-rw-r--r--]  nearest_number_2.pyc
+│   │   ├── [-rw-rw-r--]  nearest_number_3.py
+│   │   └── [drwxr-xr-x]  __pycache__
+│   │       ├── [-rw-r--r--]  __init__.cpython-36.pyc
+│   │       └── [-rw-r--r--]  nearest_number_2.cpython-36.pyc
+│   ├── [-rw-r--r--]  __init__.py
+│   ├── [-rw-r--r--]  __init__.pyc
+│   ├── [-rw-r--r--]  pseudocode_task.py
+│   ├── [drwxr-xr-x]  __pycache__
+│   │   ├── [-rw-r--r--]  __init__.cpython-36.pyc
+│   │   └── [-rw-r--r--]  test.cpython-36.pyc
+│   └── [-rw-r--r--]  test.py
+├── [-rw-rw-r--]  plotting_from_db.py
+├── [-rw-r--r--]  pseudo_data.py
+├── [-rw-r--r--]  README.md
+├── [drwxr-xr-x]  static
+│   └── [-rw-r--r--]  favicon.ico
+├── [-rw-r--r--]  structure.txt
+├── [drwxr-xr-x]  templates
+│   ├── [-rw-r--r--]  404.html
+│   ├── [-rw-r--r--]  500.html
+│   ├── [-rw-r--r--]  base_.html
+│   ├── [-rw-r--r--]  base.html
+│   ├── [-rw-r--r--]  index.html
+│   ├── [-rw-r--r--]  page1.html
+│   ├── [-rw-r--r--]  page4.html
+│   ├── [-rw-rw-r--]  user_2.html
+│   ├── [-rw-r--r--]  user_.html
+│   └── [-rw-r--r--]  user.html
+├── [-rw-r--r--]  tree.txt
+└── [drwxr-xr-x]  venv
+    ├── [drwxr-xr-x]  bin
+    │   ├── [-rw-r--r--]  activate
+    │   ├── [-rw-r--r--]  activate.csh
+    │   ├── [-rw-r--r--]  activate.fish
+    │   ├── [-rw-r--r--]  activate_this.py
+    │   ├── [-rwxr-xr-x]  easy_install
+    │   ├── [-rwxr-xr-x]  easy_install-2.7
+    │   ├── [-rwxr-xr-x]  f2py
+    │   ├── [-rwxr-xr-x]  f2py2
+    │   ├── [-rwxr-xr-x]  f2py2.7
+    │   ├── [-rwxr-xr-x]  flask
+    │   ├── [-rwxr-xr-x]  pip
+    │   ├── [-rwxr-xr-x]  pip2
+    │   ├── [-rwxr-xr-x]  pip2.7
+    │   ├── [lrwxrwxrwx]  python -> python2
+    │   ├── [-rwxr-xr-x]  python2
+    │   ├── [lrwxrwxrwx]  python2.7 -> python2
+    │   ├── [-rwxr-xr-x]  python-config
+    │   └── [-rwxr-xr-x]  wheel
+    ├── [drwxr-xr-x]  include
+    │   └── [lrwxrwxrwx]  python2.7 -> /usr/include/python2.7
+    ├── [drwxr-xr-x]  lib
+    │   └── [drwxr-xr-x]  python2.7
+    │       ├── [lrwxrwxrwx]  _abcoll.py -> /usr/lib/python2.7/_abcoll.py
+    │       ├── [-rw-r--r--]  _abcoll.pyc
+    │       ├── [lrwxrwxrwx]  abc.py -> /usr/lib/python2.7/abc.py
+    │       ├── [-rw-r--r--]  abc.pyc
+    │       ├── [lrwxrwxrwx]  codecs.py -> /usr/lib/python2.7/codecs.py
+    │       ├── [-rw-r--r--]  codecs.pyc
+    │       ├── [lrwxrwxrwx]  copy_reg.py -> /usr/lib/python2.7/copy_reg.py
+    │       ├── [-rw-r--r--]  copy_reg.pyc
+    │       ├── [drwxr-xr-x]  distutils
+    │       │   ├── [-rw-r--r--]  distutils.cfg
+    │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   └── [-rw-r--r--]  __init__.pyc
+    │       ├── [lrwxrwxrwx]  encodings -> /usr/lib/python2.7/encodings
+    │       ├── [lrwxrwxrwx]  fnmatch.py -> /usr/lib/python2.7/fnmatch.py
+    │       ├── [-rw-r--r--]  fnmatch.pyc
+    │       ├── [lrwxrwxrwx]  genericpath.py -> /usr/lib/python2.7/genericpath.py
+    │       ├── [-rw-r--r--]  genericpath.pyc
+    │       ├── [lrwxrwxrwx]  lib-dynload -> /usr/lib/python2.7/lib-dynload
+    │       ├── [lrwxrwxrwx]  linecache.py -> /usr/lib/python2.7/linecache.py
+    │       ├── [-rw-r--r--]  linecache.pyc
+    │       ├── [lrwxrwxrwx]  locale.py -> /usr/lib/python2.7/locale.py
+    │       ├── [-rw-r--r--]  locale.pyc
+    │       ├── [-rw-r--r--]  no-global-site-packages.txt
+    │       ├── [lrwxrwxrwx]  ntpath.py -> /usr/lib/python2.7/ntpath.py
+    │       ├── [-rw-r--r--]  ntpath.pyc
+    │       ├── [-rw-r--r--]  orig-prefix.txt
+    │       ├── [lrwxrwxrwx]  os.py -> /usr/lib/python2.7/os.py
+    │       ├── [-rw-r--r--]  os.pyc
+    │       ├── [lrwxrwxrwx]  posixpath.py -> /usr/lib/python2.7/posixpath.py
+    │       ├── [-rw-r--r--]  posixpath.pyc
+    │       ├── [lrwxrwxrwx]  re.py -> /usr/lib/python2.7/re.py
+    │       ├── [-rw-r--r--]  re.pyc
+    │       ├── [drwxr-xr-x]  site-packages
+    │       │   ├── [drwxr-xr-x]  click
+    │       │   │   ├── [-rw-r--r--]  _bashcomplete.py
+    │       │   │   ├── [-rw-r--r--]  _bashcomplete.pyc
+    │       │   │   ├── [-rw-r--r--]  _compat.py
+    │       │   │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │   ├── [-rw-r--r--]  core.py
+    │       │   │   ├── [-rw-r--r--]  core.pyc
+    │       │   │   ├── [-rw-r--r--]  decorators.py
+    │       │   │   ├── [-rw-r--r--]  decorators.pyc
+    │       │   │   ├── [-rw-r--r--]  exceptions.py
+    │       │   │   ├── [-rw-r--r--]  exceptions.pyc
+    │       │   │   ├── [-rw-r--r--]  formatting.py
+    │       │   │   ├── [-rw-r--r--]  formatting.pyc
+    │       │   │   ├── [-rw-r--r--]  globals.py
+    │       │   │   ├── [-rw-r--r--]  globals.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  parser.py
+    │       │   │   ├── [-rw-r--r--]  parser.pyc
+    │       │   │   ├── [-rw-r--r--]  _termui_impl.py
+    │       │   │   ├── [-rw-r--r--]  _termui_impl.pyc
+    │       │   │   ├── [-rw-r--r--]  termui.py
+    │       │   │   ├── [-rw-r--r--]  termui.pyc
+    │       │   │   ├── [-rw-r--r--]  testing.py
+    │       │   │   ├── [-rw-r--r--]  testing.pyc
+    │       │   │   ├── [-rw-r--r--]  _textwrap.py
+    │       │   │   ├── [-rw-r--r--]  _textwrap.pyc
+    │       │   │   ├── [-rw-r--r--]  types.py
+    │       │   │   ├── [-rw-r--r--]  types.pyc
+    │       │   │   ├── [-rw-r--r--]  _unicodefun.py
+    │       │   │   ├── [-rw-r--r--]  _unicodefun.pyc
+    │       │   │   ├── [-rw-r--r--]  utils.py
+    │       │   │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │   ├── [-rw-r--r--]  _winconsole.py
+    │       │   │   └── [-rw-r--r--]  _winconsole.pyc
+    │       │   ├── [drwxr-xr-x]  Click-7.0.dist-info
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE.txt
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  dominate
+    │       │   │   ├── [-rw-r--r--]  document.py
+    │       │   │   ├── [-rw-r--r--]  document.pyc
+    │       │   │   ├── [-rw-r--r--]  dom1core.py
+    │       │   │   ├── [-rw-r--r--]  dom1core.pyc
+    │       │   │   ├── [-rw-r--r--]  dom_tag.py
+    │       │   │   ├── [-rw-r--r--]  dom_tag.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  svg.py
+    │       │   │   ├── [-rw-r--r--]  svg.pyc
+    │       │   │   ├── [-rw-r--r--]  tags.py
+    │       │   │   ├── [-rw-r--r--]  tags.pyc
+    │       │   │   ├── [-rw-r--r--]  util.py
+    │       │   │   ├── [-rw-r--r--]  util.pyc
+    │       │   │   ├── [-rw-r--r--]  _version.py
+    │       │   │   └── [-rw-r--r--]  _version.pyc
+    │       │   ├── [drwxr-xr-x]  dominate-2.4.0.dist-info
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE.txt
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [-rw-r--r--]  easy_install.py
+    │       │   ├── [-rw-r--r--]  easy_install.pyc
+    │       │   ├── [drwxr-xr-x]  flask
+    │       │   │   ├── [-rw-r--r--]  app.py
+    │       │   │   ├── [-rw-r--r--]  app.pyc
+    │       │   │   ├── [-rw-r--r--]  blueprints.py
+    │       │   │   ├── [-rw-r--r--]  blueprints.pyc
+    │       │   │   ├── [-rw-r--r--]  cli.py
+    │       │   │   ├── [-rw-r--r--]  cli.pyc
+    │       │   │   ├── [-rw-r--r--]  _compat.py
+    │       │   │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │   ├── [-rw-r--r--]  config.py
+    │       │   │   ├── [-rw-r--r--]  config.pyc
+    │       │   │   ├── [-rw-r--r--]  ctx.py
+    │       │   │   ├── [-rw-r--r--]  ctx.pyc
+    │       │   │   ├── [-rw-r--r--]  debughelpers.py
+    │       │   │   ├── [-rw-r--r--]  debughelpers.pyc
+    │       │   │   ├── [-rw-r--r--]  globals.py
+    │       │   │   ├── [-rw-r--r--]  globals.pyc
+    │       │   │   ├── [-rw-r--r--]  helpers.py
+    │       │   │   ├── [-rw-r--r--]  helpers.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [drwxr-xr-x]  json
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  tag.py
+    │       │   │   │   └── [-rw-r--r--]  tag.pyc
+    │       │   │   ├── [-rw-r--r--]  logging.py
+    │       │   │   ├── [-rw-r--r--]  logging.pyc
+    │       │   │   ├── [-rw-r--r--]  __main__.py
+    │       │   │   ├── [-rw-r--r--]  __main__.pyc
+    │       │   │   ├── [-rw-r--r--]  sessions.py
+    │       │   │   ├── [-rw-r--r--]  sessions.pyc
+    │       │   │   ├── [-rw-r--r--]  signals.py
+    │       │   │   ├── [-rw-r--r--]  signals.pyc
+    │       │   │   ├── [-rw-r--r--]  templating.py
+    │       │   │   ├── [-rw-r--r--]  templating.pyc
+    │       │   │   ├── [-rw-r--r--]  testing.py
+    │       │   │   ├── [-rw-r--r--]  testing.pyc
+    │       │   │   ├── [-rw-r--r--]  views.py
+    │       │   │   ├── [-rw-r--r--]  views.pyc
+    │       │   │   ├── [-rw-r--r--]  wrappers.py
+    │       │   │   └── [-rw-r--r--]  wrappers.pyc
+    │       │   ├── [drwxr-xr-x]  Flask-1.1.1.dist-info
+    │       │   │   ├── [-rw-r--r--]  entry_points.txt
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE.rst
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  flask_bootstrap
+    │       │   │   ├── [-rw-r--r--]  forms.py
+    │       │   │   ├── [-rw-r--r--]  forms.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  nav.py
+    │       │   │   ├── [-rw-r--r--]  nav.pyc
+    │       │   │   ├── [drwxr-xr-x]  static
+    │       │   │   │   ├── [drwxr-xr-x]  css
+    │       │   │   │   │   ├── [-rw-r--r--]  bootstrap.css
+    │       │   │   │   │   ├── [-rw-r--r--]  bootstrap.css.map
+    │       │   │   │   │   ├── [-rw-r--r--]  bootstrap.min.css
+    │       │   │   │   │   ├── [-rw-r--r--]  bootstrap-theme.css
+    │       │   │   │   │   ├── [-rw-r--r--]  bootstrap-theme.css.map
+    │       │   │   │   │   └── [-rw-r--r--]  bootstrap-theme.min.css
+    │       │   │   │   ├── [drwxr-xr-x]  fonts
+    │       │   │   │   │   ├── [-rw-r--r--]  glyphicons-halflings-regular.eot
+    │       │   │   │   │   ├── [-rw-r--r--]  glyphicons-halflings-regular.svg
+    │       │   │   │   │   ├── [-rw-r--r--]  glyphicons-halflings-regular.ttf
+    │       │   │   │   │   ├── [-rw-r--r--]  glyphicons-halflings-regular.woff
+    │       │   │   │   │   └── [-rw-r--r--]  glyphicons-halflings-regular.woff2
+    │       │   │   │   ├── [-rw-r--r--]  jquery.js
+    │       │   │   │   ├── [-rw-r--r--]  jquery.min.js
+    │       │   │   │   ├── [-rw-r--r--]  jquery.min.map
+    │       │   │   │   └── [drwxr-xr-x]  js
+    │       │   │   │       ├── [-rw-r--r--]  bootstrap.js
+    │       │   │   │       ├── [-rw-r--r--]  bootstrap.min.js
+    │       │   │   │       └── [-rw-r--r--]  npm.js
+    │       │   │   └── [drwxr-xr-x]  templates
+    │       │   │       └── [drwxr-xr-x]  bootstrap
+    │       │   │           ├── [-rw-r--r--]  base.html
+    │       │   │           ├── [-rw-r--r--]  fixes.html
+    │       │   │           ├── [-rw-r--r--]  google.html
+    │       │   │           ├── [-rw-r--r--]  pagination.html
+    │       │   │           ├── [-rw-r--r--]  utils.html
+    │       │   │           └── [-rw-r--r--]  wtf.html
+    │       │   ├── [drwxr-xr-x]  Flask_Bootstrap-3.3.7.1.dist-info
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  flask_script
+    │       │   │   ├── [-rw-r--r--]  cli.py
+    │       │   │   ├── [-rw-r--r--]  cli.pyc
+    │       │   │   ├── [-rw-r--r--]  commands.py
+    │       │   │   ├── [-rw-r--r--]  commands.pyc
+    │       │   │   ├── [-rw-r--r--]  _compat.py
+    │       │   │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   └── [-rw-r--r--]  __init__.pyc
+    │       │   ├── [drwxr-xr-x]  Flask_Script-2.0.6.dist-info
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  flask_wtf
+    │       │   │   ├── [-rw-r--r--]  _compat.py
+    │       │   │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │   ├── [-rw-r--r--]  csrf.py
+    │       │   │   ├── [-rw-r--r--]  csrf.pyc
+    │       │   │   ├── [-rw-r--r--]  file.py
+    │       │   │   ├── [-rw-r--r--]  file.pyc
+    │       │   │   ├── [-rw-r--r--]  form.py
+    │       │   │   ├── [-rw-r--r--]  form.pyc
+    │       │   │   ├── [-rw-r--r--]  html5.py
+    │       │   │   ├── [-rw-r--r--]  html5.pyc
+    │       │   │   ├── [-rw-r--r--]  i18n.py
+    │       │   │   ├── [-rw-r--r--]  i18n.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   └── [drwxr-xr-x]  recaptcha
+    │       │   │       ├── [-rw-r--r--]  fields.py
+    │       │   │       ├── [-rw-r--r--]  fields.pyc
+    │       │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       ├── [-rw-r--r--]  validators.py
+    │       │   │       ├── [-rw-r--r--]  validators.pyc
+    │       │   │       ├── [-rw-r--r--]  widgets.py
+    │       │   │       └── [-rw-r--r--]  widgets.pyc
+    │       │   ├── [drwxr-xr-x]  Flask_WTF-0.14.2.dist-info
+    │       │   │   ├── [-rw-r--r--]  DESCRIPTION.rst
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE.txt
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  metadata.json
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  itsdangerous
+    │       │   │   ├── [-rw-r--r--]  _compat.py
+    │       │   │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │   ├── [-rw-r--r--]  encoding.py
+    │       │   │   ├── [-rw-r--r--]  encoding.pyc
+    │       │   │   ├── [-rw-r--r--]  exc.py
+    │       │   │   ├── [-rw-r--r--]  exc.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  _json.py
+    │       │   │   ├── [-rw-r--r--]  _json.pyc
+    │       │   │   ├── [-rw-r--r--]  jws.py
+    │       │   │   ├── [-rw-r--r--]  jws.pyc
+    │       │   │   ├── [-rw-r--r--]  serializer.py
+    │       │   │   ├── [-rw-r--r--]  serializer.pyc
+    │       │   │   ├── [-rw-r--r--]  signer.py
+    │       │   │   ├── [-rw-r--r--]  signer.pyc
+    │       │   │   ├── [-rw-r--r--]  timed.py
+    │       │   │   ├── [-rw-r--r--]  timed.pyc
+    │       │   │   ├── [-rw-r--r--]  url_safe.py
+    │       │   │   └── [-rw-r--r--]  url_safe.pyc
+    │       │   ├── [drwxr-xr-x]  itsdangerous-1.1.0.dist-info
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE.rst
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  jinja2
+    │       │   │   ├── [-rw-r--r--]  asyncfilters.py
+    │       │   │   ├── [-rw-r--r--]  asyncsupport.py
+    │       │   │   ├── [-rw-r--r--]  bccache.py
+    │       │   │   ├── [-rw-r--r--]  bccache.pyc
+    │       │   │   ├── [-rw-r--r--]  _compat.py
+    │       │   │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │   ├── [-rw-r--r--]  compiler.py
+    │       │   │   ├── [-rw-r--r--]  compiler.pyc
+    │       │   │   ├── [-rw-r--r--]  constants.py
+    │       │   │   ├── [-rw-r--r--]  constants.pyc
+    │       │   │   ├── [-rw-r--r--]  debug.py
+    │       │   │   ├── [-rw-r--r--]  debug.pyc
+    │       │   │   ├── [-rw-r--r--]  defaults.py
+    │       │   │   ├── [-rw-r--r--]  defaults.pyc
+    │       │   │   ├── [-rw-r--r--]  environment.py
+    │       │   │   ├── [-rw-r--r--]  environment.pyc
+    │       │   │   ├── [-rw-r--r--]  exceptions.py
+    │       │   │   ├── [-rw-r--r--]  exceptions.pyc
+    │       │   │   ├── [-rw-r--r--]  ext.py
+    │       │   │   ├── [-rw-r--r--]  ext.pyc
+    │       │   │   ├── [-rw-r--r--]  filters.py
+    │       │   │   ├── [-rw-r--r--]  filters.pyc
+    │       │   │   ├── [-rw-r--r--]  _identifier.py
+    │       │   │   ├── [-rw-r--r--]  _identifier.pyc
+    │       │   │   ├── [-rw-r--r--]  idtracking.py
+    │       │   │   ├── [-rw-r--r--]  idtracking.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  lexer.py
+    │       │   │   ├── [-rw-r--r--]  lexer.pyc
+    │       │   │   ├── [-rw-r--r--]  loaders.py
+    │       │   │   ├── [-rw-r--r--]  loaders.pyc
+    │       │   │   ├── [-rw-r--r--]  meta.py
+    │       │   │   ├── [-rw-r--r--]  meta.pyc
+    │       │   │   ├── [-rw-r--r--]  nativetypes.py
+    │       │   │   ├── [-rw-r--r--]  nativetypes.pyc
+    │       │   │   ├── [-rw-r--r--]  nodes.py
+    │       │   │   ├── [-rw-r--r--]  nodes.pyc
+    │       │   │   ├── [-rw-r--r--]  optimizer.py
+    │       │   │   ├── [-rw-r--r--]  optimizer.pyc
+    │       │   │   ├── [-rw-r--r--]  parser.py
+    │       │   │   ├── [-rw-r--r--]  parser.pyc
+    │       │   │   ├── [-rw-r--r--]  runtime.py
+    │       │   │   ├── [-rw-r--r--]  runtime.pyc
+    │       │   │   ├── [-rw-r--r--]  sandbox.py
+    │       │   │   ├── [-rw-r--r--]  sandbox.pyc
+    │       │   │   ├── [-rw-r--r--]  tests.py
+    │       │   │   ├── [-rw-r--r--]  tests.pyc
+    │       │   │   ├── [-rw-r--r--]  utils.py
+    │       │   │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │   ├── [-rw-r--r--]  visitor.py
+    │       │   │   └── [-rw-r--r--]  visitor.pyc
+    │       │   ├── [drwxr-xr-x]  Jinja2-2.10.1.dist-info
+    │       │   │   ├── [-rw-r--r--]  entry_points.txt
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  markupsafe
+    │       │   │   ├── [-rw-r--r--]  _compat.py
+    │       │   │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │   ├── [-rw-r--r--]  _constants.py
+    │       │   │   ├── [-rw-r--r--]  _constants.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  _native.py
+    │       │   │   ├── [-rw-r--r--]  _native.pyc
+    │       │   │   ├── [-rw-r--r--]  _speedups.c
+    │       │   │   └── [-rwxr-xr-x]  _speedups.so
+    │       │   ├── [drwxr-xr-x]  MarkupSafe-1.1.1.dist-info
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE.txt
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  numpy
+    │       │   │   ├── [drwxr-xr-x]  compat
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _inspect.py
+    │       │   │   │   ├── [-rw-r--r--]  _inspect.pyc
+    │       │   │   │   ├── [-rw-r--r--]  py3k.py
+    │       │   │   │   ├── [-rw-r--r--]  py3k.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   └── [drwxr-xr-x]  tests
+    │       │   │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_compat.py
+    │       │   │   │       └── [-rw-r--r--]  test_compat.pyc
+    │       │   │   ├── [-rw-r--r--]  __config__.py
+    │       │   │   ├── [-rw-r--r--]  __config__.pyc
+    │       │   │   ├── [-rw-r--r--]  conftest.py
+    │       │   │   ├── [-rw-r--r--]  conftest.pyc
+    │       │   │   ├── [drwxr-xr-x]  core
+    │       │   │   │   ├── [-rw-r--r--]  _add_newdocs.py
+    │       │   │   │   ├── [-rw-r--r--]  _add_newdocs.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _aliased_types.py
+    │       │   │   │   ├── [-rw-r--r--]  _aliased_types.pyc
+    │       │   │   │   ├── [-rw-r--r--]  arrayprint.py
+    │       │   │   │   ├── [-rw-r--r--]  arrayprint.pyc
+    │       │   │   │   ├── [-rw-r--r--]  cversions.py
+    │       │   │   │   ├── [-rw-r--r--]  cversions.pyc
+    │       │   │   │   ├── [-rw-r--r--]  defchararray.py
+    │       │   │   │   ├── [-rw-r--r--]  defchararray.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _dtype_ctypes.py
+    │       │   │   │   ├── [-rw-r--r--]  _dtype_ctypes.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _dtype.py
+    │       │   │   │   ├── [-rw-r--r--]  _dtype.pyc
+    │       │   │   │   ├── [-rwxr-xr-x]  _dummy.so
+    │       │   │   │   ├── [-rw-r--r--]  einsumfunc.py
+    │       │   │   │   ├── [-rw-r--r--]  einsumfunc.pyc
+    │       │   │   │   ├── [-rw-r--r--]  fromnumeric.py
+    │       │   │   │   ├── [-rw-r--r--]  fromnumeric.pyc
+    │       │   │   │   ├── [-rw-r--r--]  function_base.py
+    │       │   │   │   ├── [-rw-r--r--]  function_base.pyc
+    │       │   │   │   ├── [-rw-r--r--]  generate_numpy_api.py
+    │       │   │   │   ├── [-rw-r--r--]  generate_numpy_api.pyc
+    │       │   │   │   ├── [-rw-r--r--]  getlimits.py
+    │       │   │   │   ├── [-rw-r--r--]  getlimits.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  include
+    │       │   │   │   │   └── [drwxr-xr-x]  numpy
+    │       │   │   │   │       ├── [-rw-r--r--]  arrayobject.h
+    │       │   │   │   │       ├── [-rw-r--r--]  arrayscalars.h
+    │       │   │   │   │       ├── [-rw-r--r--]  halffloat.h
+    │       │   │   │   │       ├── [-rw-r--r--]  __multiarray_api.h
+    │       │   │   │   │       ├── [-rw-r--r--]  multiarray_api.txt
+    │       │   │   │   │       ├── [-rw-r--r--]  ndarrayobject.h
+    │       │   │   │   │       ├── [-rw-r--r--]  ndarraytypes.h
+    │       │   │   │   │       ├── [-rw-r--r--]  _neighborhood_iterator_imp.h
+    │       │   │   │   │       ├── [-rw-r--r--]  noprefix.h
+    │       │   │   │   │       ├── [-rw-r--r--]  npy_1_7_deprecated_api.h
+    │       │   │   │   │       ├── [-rw-r--r--]  npy_3kcompat.h
+    │       │   │   │   │       ├── [-rw-r--r--]  npy_common.h
+    │       │   │   │   │       ├── [-rw-r--r--]  npy_cpu.h
+    │       │   │   │   │       ├── [-rw-r--r--]  npy_endian.h
+    │       │   │   │   │       ├── [-rw-r--r--]  npy_interrupt.h
+    │       │   │   │   │       ├── [-rw-r--r--]  npy_math.h
+    │       │   │   │   │       ├── [-rw-r--r--]  npy_no_deprecated_api.h
+    │       │   │   │   │       ├── [-rw-r--r--]  npy_os.h
+    │       │   │   │   │       ├── [-rw-r--r--]  _numpyconfig.h
+    │       │   │   │   │       ├── [-rw-r--r--]  numpyconfig.h
+    │       │   │   │   │       ├── [-rw-r--r--]  old_defines.h
+    │       │   │   │   │       ├── [-rw-r--r--]  oldnumeric.h
+    │       │   │   │   │       ├── [-rw-r--r--]  __ufunc_api.h
+    │       │   │   │   │       ├── [-rw-r--r--]  ufunc_api.txt
+    │       │   │   │   │       ├── [-rw-r--r--]  ufuncobject.h
+    │       │   │   │   │       └── [-rw-r--r--]  utils.h
+    │       │   │   │   ├── [-rw-r--r--]  info.py
+    │       │   │   │   ├── [-rw-r--r--]  info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _internal.py
+    │       │   │   │   ├── [-rw-r--r--]  _internal.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  lib
+    │       │   │   │   │   ├── [-rw-r--r--]  libnpymath.a
+    │       │   │   │   │   └── [drwxr-xr-x]  npy-pkg-config
+    │       │   │   │   │       ├── [-rw-r--r--]  mlib.ini
+    │       │   │   │   │       └── [-rw-r--r--]  npymath.ini
+    │       │   │   │   ├── [-rw-r--r--]  machar.py
+    │       │   │   │   ├── [-rw-r--r--]  machar.pyc
+    │       │   │   │   ├── [-rw-r--r--]  memmap.py
+    │       │   │   │   ├── [-rw-r--r--]  memmap.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _methods.py
+    │       │   │   │   ├── [-rw-r--r--]  _methods.pyc
+    │       │   │   │   ├── [-rw-r--r--]  multiarray.py
+    │       │   │   │   ├── [-rw-r--r--]  multiarray.pyc
+    │       │   │   │   ├── [-rwxr-xr-x]  _multiarray_tests.so
+    │       │   │   │   ├── [-rwxr-xr-x]  _multiarray_umath.so
+    │       │   │   │   ├── [-rw-r--r--]  numeric.py
+    │       │   │   │   ├── [-rw-r--r--]  numeric.pyc
+    │       │   │   │   ├── [-rw-r--r--]  numerictypes.py
+    │       │   │   │   ├── [-rw-r--r--]  numerictypes.pyc
+    │       │   │   │   ├── [-rwxr-xr-x]  _operand_flag_tests.so
+    │       │   │   │   ├── [-rw-r--r--]  overrides.py
+    │       │   │   │   ├── [-rw-r--r--]  overrides.pyc
+    │       │   │   │   ├── [-rwxr-xr-x]  _rational_tests.so
+    │       │   │   │   ├── [-rw-r--r--]  records.py
+    │       │   │   │   ├── [-rw-r--r--]  records.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup_common.py
+    │       │   │   │   ├── [-rw-r--r--]  setup_common.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   ├── [-rw-r--r--]  shape_base.py
+    │       │   │   │   ├── [-rw-r--r--]  shape_base.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _string_helpers.py
+    │       │   │   │   ├── [-rw-r--r--]  _string_helpers.pyc
+    │       │   │   │   ├── [-rwxr-xr-x]  _struct_ufunc_tests.so
+    │       │   │   │   ├── [drwxr-xr-x]  tests
+    │       │   │   │   │   ├── [drwxr-xr-x]  data
+    │       │   │   │   │   │   ├── [-rw-r--r--]  astype_copy.pkl
+    │       │   │   │   │   │   └── [-rw-r--r--]  recarray_from_file.fits
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  _locales.py
+    │       │   │   │   │   ├── [-rw-r--r--]  _locales.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_abc.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_abc.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_api.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_api.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_arrayprint.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_arrayprint.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_datetime.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_datetime.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_defchararray.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_defchararray.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_deprecations.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_deprecations.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_dtype.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_dtype.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_einsum.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_einsum.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_errstate.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_errstate.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_extint128.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_extint128.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_function_base.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_function_base.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_getlimits.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_getlimits.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_half.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_half.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_indexerrors.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_indexerrors.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_indexing.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_indexing.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_item_selection.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_item_selection.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_longdouble.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_longdouble.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_machar.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_machar.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_memmap.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_memmap.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_mem_overlap.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_mem_overlap.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_multiarray.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_multiarray.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_nditer.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_nditer.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_numeric.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_numeric.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_numerictypes.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_numerictypes.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_overrides.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_overrides.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_print.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_print.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_records.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_records.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_regression.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_regression.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalarbuffer.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalarbuffer.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalar_ctors.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalar_ctors.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalarinherit.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalarinherit.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalarmath.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalarmath.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalarprint.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_scalarprint.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_shape_base.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_shape_base.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_ufunc.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_ufunc.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_umath_complex.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_umath_complex.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_umath.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_umath.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_unicode.py
+    │       │   │   │   │   └── [-rw-r--r--]  test_unicode.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _type_aliases.py
+    │       │   │   │   ├── [-rw-r--r--]  _type_aliases.pyc
+    │       │   │   │   ├── [-rw-r--r--]  umath.py
+    │       │   │   │   ├── [-rw-r--r--]  umath.pyc
+    │       │   │   │   ├── [-rw-r--r--]  umath_tests.py
+    │       │   │   │   ├── [-rw-r--r--]  umath_tests.pyc
+    │       │   │   │   └── [-rwxr-xr-x]  _umath_tests.so
+    │       │   │   ├── [-rw-r--r--]  ctypeslib.py
+    │       │   │   ├── [-rw-r--r--]  ctypeslib.pyc
+    │       │   │   ├── [-rw-r--r--]  _distributor_init.py
+    │       │   │   ├── [-rw-r--r--]  _distributor_init.pyc
+    │       │   │   ├── [drwxr-xr-x]  distutils
+    │       │   │   │   ├── [-rw-r--r--]  ccompiler.py
+    │       │   │   │   ├── [-rw-r--r--]  ccompiler.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  command
+    │       │   │   │   │   ├── [-rw-r--r--]  autodist.py
+    │       │   │   │   │   ├── [-rw-r--r--]  autodist.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  bdist_rpm.py
+    │       │   │   │   │   ├── [-rw-r--r--]  bdist_rpm.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  build_clib.py
+    │       │   │   │   │   ├── [-rw-r--r--]  build_clib.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  build_ext.py
+    │       │   │   │   │   ├── [-rw-r--r--]  build_ext.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  build.py
+    │       │   │   │   │   ├── [-rw-r--r--]  build.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  build_py.py
+    │       │   │   │   │   ├── [-rw-r--r--]  build_py.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  build_scripts.py
+    │       │   │   │   │   ├── [-rw-r--r--]  build_scripts.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  build_src.py
+    │       │   │   │   │   ├── [-rw-r--r--]  build_src.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  config_compiler.py
+    │       │   │   │   │   ├── [-rw-r--r--]  config_compiler.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  config.py
+    │       │   │   │   │   ├── [-rw-r--r--]  config.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  develop.py
+    │       │   │   │   │   ├── [-rw-r--r--]  develop.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  egg_info.py
+    │       │   │   │   │   ├── [-rw-r--r--]  egg_info.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  install_clib.py
+    │       │   │   │   │   ├── [-rw-r--r--]  install_clib.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  install_data.py
+    │       │   │   │   │   ├── [-rw-r--r--]  install_data.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  install_headers.py
+    │       │   │   │   │   ├── [-rw-r--r--]  install_headers.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  install.py
+    │       │   │   │   │   ├── [-rw-r--r--]  install.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  sdist.py
+    │       │   │   │   │   └── [-rw-r--r--]  sdist.pyc
+    │       │   │   │   ├── [-rw-r--r--]  compat.py
+    │       │   │   │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __config__.py
+    │       │   │   │   ├── [-rw-r--r--]  __config__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  conv_template.py
+    │       │   │   │   ├── [-rw-r--r--]  conv_template.pyc
+    │       │   │   │   ├── [-rw-r--r--]  core.py
+    │       │   │   │   ├── [-rw-r--r--]  core.pyc
+    │       │   │   │   ├── [-rw-r--r--]  cpuinfo.py
+    │       │   │   │   ├── [-rw-r--r--]  cpuinfo.pyc
+    │       │   │   │   ├── [-rw-r--r--]  exec_command.py
+    │       │   │   │   ├── [-rw-r--r--]  exec_command.pyc
+    │       │   │   │   ├── [-rw-r--r--]  extension.py
+    │       │   │   │   ├── [-rw-r--r--]  extension.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  fcompiler
+    │       │   │   │   │   ├── [-rw-r--r--]  absoft.py
+    │       │   │   │   │   ├── [-rw-r--r--]  absoft.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  compaq.py
+    │       │   │   │   │   ├── [-rw-r--r--]  compaq.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  environment.py
+    │       │   │   │   │   ├── [-rw-r--r--]  environment.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  g95.py
+    │       │   │   │   │   ├── [-rw-r--r--]  g95.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  gnu.py
+    │       │   │   │   │   ├── [-rw-r--r--]  gnu.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  hpux.py
+    │       │   │   │   │   ├── [-rw-r--r--]  hpux.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  ibm.py
+    │       │   │   │   │   ├── [-rw-r--r--]  ibm.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  intel.py
+    │       │   │   │   │   ├── [-rw-r--r--]  intel.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  lahey.py
+    │       │   │   │   │   ├── [-rw-r--r--]  lahey.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  mips.py
+    │       │   │   │   │   ├── [-rw-r--r--]  mips.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  nag.py
+    │       │   │   │   │   ├── [-rw-r--r--]  nag.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  none.py
+    │       │   │   │   │   ├── [-rw-r--r--]  none.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  pathf95.py
+    │       │   │   │   │   ├── [-rw-r--r--]  pathf95.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  pg.py
+    │       │   │   │   │   ├── [-rw-r--r--]  pg.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  sun.py
+    │       │   │   │   │   ├── [-rw-r--r--]  sun.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  vast.py
+    │       │   │   │   │   └── [-rw-r--r--]  vast.pyc
+    │       │   │   │   ├── [-rw-r--r--]  from_template.py
+    │       │   │   │   ├── [-rw-r--r--]  from_template.pyc
+    │       │   │   │   ├── [-rw-r--r--]  info.py
+    │       │   │   │   ├── [-rw-r--r--]  info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  intelccompiler.py
+    │       │   │   │   ├── [-rw-r--r--]  intelccompiler.pyc
+    │       │   │   │   ├── [-rw-r--r--]  lib2def.py
+    │       │   │   │   ├── [-rw-r--r--]  lib2def.pyc
+    │       │   │   │   ├── [-rw-r--r--]  line_endings.py
+    │       │   │   │   ├── [-rw-r--r--]  line_endings.pyc
+    │       │   │   │   ├── [-rw-r--r--]  log.py
+    │       │   │   │   ├── [-rw-r--r--]  log.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  mingw
+    │       │   │   │   │   └── [-rw-r--r--]  gfortran_vs2003_hack.c
+    │       │   │   │   ├── [-rw-r--r--]  mingw32ccompiler.py
+    │       │   │   │   ├── [-rw-r--r--]  mingw32ccompiler.pyc
+    │       │   │   │   ├── [-rw-r--r--]  misc_util.py
+    │       │   │   │   ├── [-rw-r--r--]  misc_util.pyc
+    │       │   │   │   ├── [-rw-r--r--]  msvc9compiler.py
+    │       │   │   │   ├── [-rw-r--r--]  msvc9compiler.pyc
+    │       │   │   │   ├── [-rw-r--r--]  msvccompiler.py
+    │       │   │   │   ├── [-rw-r--r--]  msvccompiler.pyc
+    │       │   │   │   ├── [-rw-r--r--]  npy_pkg_config.py
+    │       │   │   │   ├── [-rw-r--r--]  npy_pkg_config.pyc
+    │       │   │   │   ├── [-rw-r--r--]  numpy_distribution.py
+    │       │   │   │   ├── [-rw-r--r--]  numpy_distribution.pyc
+    │       │   │   │   ├── [-rw-r--r--]  pathccompiler.py
+    │       │   │   │   ├── [-rw-r--r--]  pathccompiler.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _shell_utils.py
+    │       │   │   │   ├── [-rw-r--r--]  _shell_utils.pyc
+    │       │   │   │   ├── [-rw-r--r--]  system_info.py
+    │       │   │   │   ├── [-rw-r--r--]  system_info.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  tests
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_exec_command.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_exec_command.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_fcompiler_gnu.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_fcompiler_gnu.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_fcompiler_intel.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_fcompiler_intel.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_fcompiler_nagfor.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_fcompiler_nagfor.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_fcompiler.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_fcompiler.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_from_template.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_from_template.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_misc_util.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_misc_util.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_npy_pkg_config.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_npy_pkg_config.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_shell_utils.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_shell_utils.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_system_info.py
+    │       │   │   │   │   └── [-rw-r--r--]  test_system_info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  unixccompiler.py
+    │       │   │   │   ├── [-rw-r--r--]  unixccompiler.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __version__.py
+    │       │   │   │   └── [-rw-r--r--]  __version__.pyc
+    │       │   │   ├── [drwxr-xr-x]  doc
+    │       │   │   │   ├── [-rw-r--r--]  basics.py
+    │       │   │   │   ├── [-rw-r--r--]  basics.pyc
+    │       │   │   │   ├── [-rw-r--r--]  broadcasting.py
+    │       │   │   │   ├── [-rw-r--r--]  broadcasting.pyc
+    │       │   │   │   ├── [-rw-r--r--]  byteswapping.py
+    │       │   │   │   ├── [-rw-r--r--]  byteswapping.pyc
+    │       │   │   │   ├── [-rw-r--r--]  constants.py
+    │       │   │   │   ├── [-rw-r--r--]  constants.pyc
+    │       │   │   │   ├── [-rw-r--r--]  creation.py
+    │       │   │   │   ├── [-rw-r--r--]  creation.pyc
+    │       │   │   │   ├── [-rw-r--r--]  glossary.py
+    │       │   │   │   ├── [-rw-r--r--]  glossary.pyc
+    │       │   │   │   ├── [-rw-r--r--]  indexing.py
+    │       │   │   │   ├── [-rw-r--r--]  indexing.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  internals.py
+    │       │   │   │   ├── [-rw-r--r--]  internals.pyc
+    │       │   │   │   ├── [-rw-r--r--]  misc.py
+    │       │   │   │   ├── [-rw-r--r--]  misc.pyc
+    │       │   │   │   ├── [-rw-r--r--]  structured_arrays.py
+    │       │   │   │   ├── [-rw-r--r--]  structured_arrays.pyc
+    │       │   │   │   ├── [-rw-r--r--]  subclassing.py
+    │       │   │   │   ├── [-rw-r--r--]  subclassing.pyc
+    │       │   │   │   ├── [-rw-r--r--]  ufuncs.py
+    │       │   │   │   └── [-rw-r--r--]  ufuncs.pyc
+    │       │   │   ├── [-rw-r--r--]  dual.py
+    │       │   │   ├── [-rw-r--r--]  dual.pyc
+    │       │   │   ├── [drwxr-xr-x]  f2py
+    │       │   │   │   ├── [-rw-r--r--]  auxfuncs.py
+    │       │   │   │   ├── [-rw-r--r--]  auxfuncs.pyc
+    │       │   │   │   ├── [-rw-r--r--]  capi_maps.py
+    │       │   │   │   ├── [-rw-r--r--]  capi_maps.pyc
+    │       │   │   │   ├── [-rw-r--r--]  cb_rules.py
+    │       │   │   │   ├── [-rw-r--r--]  cb_rules.pyc
+    │       │   │   │   ├── [-rw-r--r--]  cfuncs.py
+    │       │   │   │   ├── [-rw-r--r--]  cfuncs.pyc
+    │       │   │   │   ├── [-rw-r--r--]  common_rules.py
+    │       │   │   │   ├── [-rw-r--r--]  common_rules.pyc
+    │       │   │   │   ├── [-rw-r--r--]  crackfortran.py
+    │       │   │   │   ├── [-rw-r--r--]  crackfortran.pyc
+    │       │   │   │   ├── [-rw-r--r--]  diagnose.py
+    │       │   │   │   ├── [-rw-r--r--]  diagnose.pyc
+    │       │   │   │   ├── [-rw-r--r--]  f2py2e.py
+    │       │   │   │   ├── [-rw-r--r--]  f2py2e.pyc
+    │       │   │   │   ├── [-rw-r--r--]  f2py_testing.py
+    │       │   │   │   ├── [-rw-r--r--]  f2py_testing.pyc
+    │       │   │   │   ├── [-rw-r--r--]  f90mod_rules.py
+    │       │   │   │   ├── [-rw-r--r--]  f90mod_rules.pyc
+    │       │   │   │   ├── [-rw-r--r--]  func2subr.py
+    │       │   │   │   ├── [-rw-r--r--]  func2subr.pyc
+    │       │   │   │   ├── [-rw-r--r--]  info.py
+    │       │   │   │   ├── [-rw-r--r--]  info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __main__.py
+    │       │   │   │   ├── [-rw-r--r--]  __main__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  rules.py
+    │       │   │   │   ├── [-rw-r--r--]  rules.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  src
+    │       │   │   │   │   ├── [-rw-r--r--]  fortranobject.c
+    │       │   │   │   │   └── [-rw-r--r--]  fortranobject.h
+    │       │   │   │   ├── [drwxr-xr-x]  tests
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [drwxr-xr-x]  src
+    │       │   │   │   │   │   ├── [drwxr-xr-x]  array_from_pyobj
+    │       │   │   │   │   │   │   └── [-rw-r--r--]  wrapmodule.c
+    │       │   │   │   │   │   ├── [drwxr-xr-x]  assumed_shape
+    │       │   │   │   │   │   │   ├── [-rw-r--r--]  foo_free.f90
+    │       │   │   │   │   │   │   ├── [-rw-r--r--]  foo_mod.f90
+    │       │   │   │   │   │   │   ├── [-rw-r--r--]  foo_use.f90
+    │       │   │   │   │   │   │   └── [-rw-r--r--]  precision.f90
+    │       │   │   │   │   │   ├── [drwxr-xr-x]  common
+    │       │   │   │   │   │   │   └── [-rw-r--r--]  block.f
+    │       │   │   │   │   │   ├── [drwxr-xr-x]  kind
+    │       │   │   │   │   │   │   └── [-rw-r--r--]  foo.f90
+    │       │   │   │   │   │   ├── [drwxr-xr-x]  mixed
+    │       │   │   │   │   │   │   ├── [-rw-r--r--]  foo.f
+    │       │   │   │   │   │   │   ├── [-rw-r--r--]  foo_fixed.f90
+    │       │   │   │   │   │   │   └── [-rw-r--r--]  foo_free.f90
+    │       │   │   │   │   │   ├── [drwxr-xr-x]  parameter
+    │       │   │   │   │   │   │   ├── [-rw-r--r--]  constant_both.f90
+    │       │   │   │   │   │   │   ├── [-rw-r--r--]  constant_compound.f90
+    │       │   │   │   │   │   │   ├── [-rw-r--r--]  constant_integer.f90
+    │       │   │   │   │   │   │   ├── [-rw-r--r--]  constant_non_compound.f90
+    │       │   │   │   │   │   │   └── [-rw-r--r--]  constant_real.f90
+    │       │   │   │   │   │   ├── [drwxr-xr-x]  regression
+    │       │   │   │   │   │   │   └── [-rw-r--r--]  inout.f90
+    │       │   │   │   │   │   ├── [drwxr-xr-x]  size
+    │       │   │   │   │   │   │   └── [-rw-r--r--]  foo.f90
+    │       │   │   │   │   │   └── [drwxr-xr-x]  string
+    │       │   │   │   │   │       └── [-rw-r--r--]  char.f90
+    │       │   │   │   │   ├── [-rw-r--r--]  test_array_from_pyobj.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_array_from_pyobj.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_assumed_shape.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_assumed_shape.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_block_docstring.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_block_docstring.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_callback.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_callback.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_common.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_common.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_compile_function.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_compile_function.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_kind.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_kind.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_mixed.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_mixed.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_parameter.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_parameter.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_quoted_character.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_quoted_character.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_regression.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_regression.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_character.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_character.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_complex.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_complex.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_integer.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_integer.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_logical.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_logical.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_real.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_return_real.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_semicolon_split.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_semicolon_split.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_size.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_size.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_string.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_string.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  util.py
+    │       │   │   │   │   └── [-rw-r--r--]  util.pyc
+    │       │   │   │   ├── [-rw-r--r--]  use_rules.py
+    │       │   │   │   ├── [-rw-r--r--]  use_rules.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __version__.py
+    │       │   │   │   └── [-rw-r--r--]  __version__.pyc
+    │       │   │   ├── [drwxr-xr-x]  fft
+    │       │   │   │   ├── [-rwxr-xr-x]  fftpack_lite.so
+    │       │   │   │   ├── [-rw-r--r--]  fftpack.py
+    │       │   │   │   ├── [-rw-r--r--]  fftpack.pyc
+    │       │   │   │   ├── [-rw-r--r--]  helper.py
+    │       │   │   │   ├── [-rw-r--r--]  helper.pyc
+    │       │   │   │   ├── [-rw-r--r--]  info.py
+    │       │   │   │   ├── [-rw-r--r--]  info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   └── [drwxr-xr-x]  tests
+    │       │   │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_fftpack.py
+    │       │   │   │       ├── [-rw-r--r--]  test_fftpack.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_helper.py
+    │       │   │   │       └── [-rw-r--r--]  test_helper.pyc
+    │       │   │   ├── [-rw-r--r--]  _globals.py
+    │       │   │   ├── [-rw-r--r--]  _globals.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [drwxr-xr-x]  lib
+    │       │   │   │   ├── [-rw-r--r--]  arraypad.py
+    │       │   │   │   ├── [-rw-r--r--]  arraypad.pyc
+    │       │   │   │   ├── [-rw-r--r--]  arraysetops.py
+    │       │   │   │   ├── [-rw-r--r--]  arraysetops.pyc
+    │       │   │   │   ├── [-rw-r--r--]  arrayterator.py
+    │       │   │   │   ├── [-rw-r--r--]  arrayterator.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _datasource.py
+    │       │   │   │   ├── [-rw-r--r--]  _datasource.pyc
+    │       │   │   │   ├── [-rw-r--r--]  financial.py
+    │       │   │   │   ├── [-rw-r--r--]  financial.pyc
+    │       │   │   │   ├── [-rw-r--r--]  format.py
+    │       │   │   │   ├── [-rw-r--r--]  format.pyc
+    │       │   │   │   ├── [-rw-r--r--]  function_base.py
+    │       │   │   │   ├── [-rw-r--r--]  function_base.pyc
+    │       │   │   │   ├── [-rw-r--r--]  histograms.py
+    │       │   │   │   ├── [-rw-r--r--]  histograms.pyc
+    │       │   │   │   ├── [-rw-r--r--]  index_tricks.py
+    │       │   │   │   ├── [-rw-r--r--]  index_tricks.pyc
+    │       │   │   │   ├── [-rw-r--r--]  info.py
+    │       │   │   │   ├── [-rw-r--r--]  info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _iotools.py
+    │       │   │   │   ├── [-rw-r--r--]  _iotools.pyc
+    │       │   │   │   ├── [-rw-r--r--]  mixins.py
+    │       │   │   │   ├── [-rw-r--r--]  mixins.pyc
+    │       │   │   │   ├── [-rw-r--r--]  nanfunctions.py
+    │       │   │   │   ├── [-rw-r--r--]  nanfunctions.pyc
+    │       │   │   │   ├── [-rw-r--r--]  npyio.py
+    │       │   │   │   ├── [-rw-r--r--]  npyio.pyc
+    │       │   │   │   ├── [-rw-r--r--]  polynomial.py
+    │       │   │   │   ├── [-rw-r--r--]  polynomial.pyc
+    │       │   │   │   ├── [-rw-r--r--]  recfunctions.py
+    │       │   │   │   ├── [-rw-r--r--]  recfunctions.pyc
+    │       │   │   │   ├── [-rw-r--r--]  scimath.py
+    │       │   │   │   ├── [-rw-r--r--]  scimath.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   ├── [-rw-r--r--]  shape_base.py
+    │       │   │   │   ├── [-rw-r--r--]  shape_base.pyc
+    │       │   │   │   ├── [-rw-r--r--]  stride_tricks.py
+    │       │   │   │   ├── [-rw-r--r--]  stride_tricks.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  tests
+    │       │   │   │   │   ├── [drwxr-xr-x]  data
+    │       │   │   │   │   │   ├── [-rw-r--r--]  py2-objarr.npy
+    │       │   │   │   │   │   ├── [-rw-r--r--]  py2-objarr.npz
+    │       │   │   │   │   │   ├── [-rw-r--r--]  py3-objarr.npy
+    │       │   │   │   │   │   ├── [-rw-r--r--]  py3-objarr.npz
+    │       │   │   │   │   │   ├── [-rw-r--r--]  python3.npy
+    │       │   │   │   │   │   └── [-rw-r--r--]  win64python2.npy
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_arraypad.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_arraypad.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_arraysetops.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_arraysetops.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_arrayterator.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_arrayterator.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test__datasource.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test__datasource.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_financial.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_financial.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_format.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_format.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_function_base.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_function_base.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_histograms.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_histograms.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_index_tricks.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_index_tricks.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_io.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_io.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test__iotools.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test__iotools.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_mixins.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_mixins.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_nanfunctions.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_nanfunctions.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_packbits.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_packbits.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_polynomial.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_polynomial.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_recfunctions.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_recfunctions.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_regression.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_regression.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_shape_base.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_shape_base.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_stride_tricks.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_stride_tricks.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_twodim_base.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_twodim_base.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_type_check.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_type_check.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_ufunclike.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_ufunclike.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_utils.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_utils.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test__version.py
+    │       │   │   │   │   └── [-rw-r--r--]  test__version.pyc
+    │       │   │   │   ├── [-rw-r--r--]  twodim_base.py
+    │       │   │   │   ├── [-rw-r--r--]  twodim_base.pyc
+    │       │   │   │   ├── [-rw-r--r--]  type_check.py
+    │       │   │   │   ├── [-rw-r--r--]  type_check.pyc
+    │       │   │   │   ├── [-rw-r--r--]  ufunclike.py
+    │       │   │   │   ├── [-rw-r--r--]  ufunclike.pyc
+    │       │   │   │   ├── [-rw-r--r--]  user_array.py
+    │       │   │   │   ├── [-rw-r--r--]  user_array.pyc
+    │       │   │   │   ├── [-rw-r--r--]  utils.py
+    │       │   │   │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _version.py
+    │       │   │   │   └── [-rw-r--r--]  _version.pyc
+    │       │   │   ├── [-rw-r--r--]  LICENSE.txt
+    │       │   │   ├── [drwxr-xr-x]  linalg
+    │       │   │   │   ├── [-rw-r--r--]  info.py
+    │       │   │   │   ├── [-rw-r--r--]  info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rwxr-xr-x]  lapack_lite.so
+    │       │   │   │   ├── [-rw-r--r--]  linalg.py
+    │       │   │   │   ├── [-rw-r--r--]  linalg.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  tests
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_build.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_build.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_deprecations.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_deprecations.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_linalg.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_linalg.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_regression.py
+    │       │   │   │   │   └── [-rw-r--r--]  test_regression.pyc
+    │       │   │   │   └── [-rwxr-xr-x]  _umath_linalg.so
+    │       │   │   ├── [drwxr-xr-x]  ma
+    │       │   │   │   ├── [-rw-r--r--]  bench.py
+    │       │   │   │   ├── [-rw-r--r--]  bench.pyc
+    │       │   │   │   ├── [-rw-r--r--]  core.py
+    │       │   │   │   ├── [-rw-r--r--]  core.pyc
+    │       │   │   │   ├── [-rw-r--r--]  extras.py
+    │       │   │   │   ├── [-rw-r--r--]  extras.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  mrecords.py
+    │       │   │   │   ├── [-rw-r--r--]  mrecords.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  tests
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_core.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_core.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_deprecations.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_deprecations.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_extras.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_extras.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_mrecords.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_mrecords.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_old_ma.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_old_ma.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_regression.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_regression.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_subclassing.py
+    │       │   │   │   │   └── [-rw-r--r--]  test_subclassing.pyc
+    │       │   │   │   ├── [-rw-r--r--]  testutils.py
+    │       │   │   │   ├── [-rw-r--r--]  testutils.pyc
+    │       │   │   │   ├── [-rw-r--r--]  timer_comparison.py
+    │       │   │   │   ├── [-rw-r--r--]  timer_comparison.pyc
+    │       │   │   │   ├── [-rw-r--r--]  version.py
+    │       │   │   │   └── [-rw-r--r--]  version.pyc
+    │       │   │   ├── [-rw-r--r--]  matlib.py
+    │       │   │   ├── [-rw-r--r--]  matlib.pyc
+    │       │   │   ├── [drwxr-xr-x]  matrixlib
+    │       │   │   │   ├── [-rw-r--r--]  defmatrix.py
+    │       │   │   │   ├── [-rw-r--r--]  defmatrix.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   └── [drwxr-xr-x]  tests
+    │       │   │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_defmatrix.py
+    │       │   │   │       ├── [-rw-r--r--]  test_defmatrix.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_interaction.py
+    │       │   │   │       ├── [-rw-r--r--]  test_interaction.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_masked_matrix.py
+    │       │   │   │       ├── [-rw-r--r--]  test_masked_matrix.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_matrix_linalg.py
+    │       │   │   │       ├── [-rw-r--r--]  test_matrix_linalg.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_multiarray.py
+    │       │   │   │       ├── [-rw-r--r--]  test_multiarray.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_numeric.py
+    │       │   │   │       ├── [-rw-r--r--]  test_numeric.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_regression.py
+    │       │   │   │       └── [-rw-r--r--]  test_regression.pyc
+    │       │   │   ├── [drwxr-xr-x]  polynomial
+    │       │   │   │   ├── [-rw-r--r--]  chebyshev.py
+    │       │   │   │   ├── [-rw-r--r--]  chebyshev.pyc
+    │       │   │   │   ├── [-rw-r--r--]  hermite_e.py
+    │       │   │   │   ├── [-rw-r--r--]  hermite_e.pyc
+    │       │   │   │   ├── [-rw-r--r--]  hermite.py
+    │       │   │   │   ├── [-rw-r--r--]  hermite.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  laguerre.py
+    │       │   │   │   ├── [-rw-r--r--]  laguerre.pyc
+    │       │   │   │   ├── [-rw-r--r--]  legendre.py
+    │       │   │   │   ├── [-rw-r--r--]  legendre.pyc
+    │       │   │   │   ├── [-rw-r--r--]  _polybase.py
+    │       │   │   │   ├── [-rw-r--r--]  _polybase.pyc
+    │       │   │   │   ├── [-rw-r--r--]  polynomial.py
+    │       │   │   │   ├── [-rw-r--r--]  polynomial.pyc
+    │       │   │   │   ├── [-rw-r--r--]  polyutils.py
+    │       │   │   │   ├── [-rw-r--r--]  polyutils.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   └── [drwxr-xr-x]  tests
+    │       │   │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_chebyshev.py
+    │       │   │   │       ├── [-rw-r--r--]  test_chebyshev.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_classes.py
+    │       │   │   │       ├── [-rw-r--r--]  test_classes.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_hermite_e.py
+    │       │   │   │       ├── [-rw-r--r--]  test_hermite_e.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_hermite.py
+    │       │   │   │       ├── [-rw-r--r--]  test_hermite.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_laguerre.py
+    │       │   │   │       ├── [-rw-r--r--]  test_laguerre.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_legendre.py
+    │       │   │   │       ├── [-rw-r--r--]  test_legendre.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_polynomial.py
+    │       │   │   │       ├── [-rw-r--r--]  test_polynomial.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_polyutils.py
+    │       │   │   │       ├── [-rw-r--r--]  test_polyutils.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_printing.py
+    │       │   │   │       └── [-rw-r--r--]  test_printing.pyc
+    │       │   │   ├── [-rw-r--r--]  _pytesttester.py
+    │       │   │   ├── [-rw-r--r--]  _pytesttester.pyc
+    │       │   │   ├── [drwxr-xr-x]  random
+    │       │   │   │   ├── [-rw-r--r--]  info.py
+    │       │   │   │   ├── [-rw-r--r--]  info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rwxr-xr-x]  mtrand.so
+    │       │   │   │   ├── [-rw-r--r--]  randomkit.h
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   └── [drwxr-xr-x]  tests
+    │       │   │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_random.py
+    │       │   │   │       ├── [-rw-r--r--]  test_random.pyc
+    │       │   │   │       ├── [-rw-r--r--]  test_regression.py
+    │       │   │   │       └── [-rw-r--r--]  test_regression.pyc
+    │       │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   ├── [drwxr-xr-x]  testing
+    │       │   │   │   ├── [-rw-r--r--]  decorators.py
+    │       │   │   │   ├── [-rw-r--r--]  decorators.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  noseclasses.py
+    │       │   │   │   ├── [-rw-r--r--]  noseclasses.pyc
+    │       │   │   │   ├── [-rw-r--r--]  nosetester.py
+    │       │   │   │   ├── [-rw-r--r--]  nosetester.pyc
+    │       │   │   │   ├── [-rw-r--r--]  print_coercion_tables.py
+    │       │   │   │   ├── [-rw-r--r--]  print_coercion_tables.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  _private
+    │       │   │   │   │   ├── [-rw-r--r--]  decorators.py
+    │       │   │   │   │   ├── [-rw-r--r--]  decorators.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  noseclasses.py
+    │       │   │   │   │   ├── [-rw-r--r--]  noseclasses.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  nosetester.py
+    │       │   │   │   │   ├── [-rw-r--r--]  nosetester.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  parameterized.py
+    │       │   │   │   │   ├── [-rw-r--r--]  parameterized.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  utils.py
+    │       │   │   │   │   └── [-rw-r--r--]  utils.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setup.py
+    │       │   │   │   ├── [-rw-r--r--]  setup.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  tests
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_decorators.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_decorators.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_doctesting.py
+    │       │   │   │   │   ├── [-rw-r--r--]  test_doctesting.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  test_utils.py
+    │       │   │   │   │   └── [-rw-r--r--]  test_utils.pyc
+    │       │   │   │   ├── [-rw-r--r--]  utils.py
+    │       │   │   │   └── [-rw-r--r--]  utils.pyc
+    │       │   │   ├── [drwxr-xr-x]  tests
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  test_ctypeslib.py
+    │       │   │   │   ├── [-rw-r--r--]  test_ctypeslib.pyc
+    │       │   │   │   ├── [-rw-r--r--]  test_matlib.py
+    │       │   │   │   ├── [-rw-r--r--]  test_matlib.pyc
+    │       │   │   │   ├── [-rw-r--r--]  test_numpy_version.py
+    │       │   │   │   ├── [-rw-r--r--]  test_numpy_version.pyc
+    │       │   │   │   ├── [-rw-r--r--]  test_public_api.py
+    │       │   │   │   ├── [-rw-r--r--]  test_public_api.pyc
+    │       │   │   │   ├── [-rw-r--r--]  test_reloading.py
+    │       │   │   │   ├── [-rw-r--r--]  test_reloading.pyc
+    │       │   │   │   ├── [-rw-r--r--]  test_scripts.py
+    │       │   │   │   ├── [-rw-r--r--]  test_scripts.pyc
+    │       │   │   │   ├── [-rw-r--r--]  test_warnings.py
+    │       │   │   │   └── [-rw-r--r--]  test_warnings.pyc
+    │       │   │   ├── [-rw-r--r--]  version.py
+    │       │   │   └── [-rw-r--r--]  version.pyc
+    │       │   ├── [drwxr-xr-x]  numpy-1.16.4.dist-info
+    │       │   │   ├── [-rw-r--r--]  entry_points.txt
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  pip
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [drwxr-xr-x]  _internal
+    │       │   │   │   ├── [-rw-r--r--]  build_env.py
+    │       │   │   │   ├── [-rw-r--r--]  build_env.pyc
+    │       │   │   │   ├── [-rw-r--r--]  cache.py
+    │       │   │   │   ├── [-rw-r--r--]  cache.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  cli
+    │       │   │   │   │   ├── [-rw-r--r--]  autocompletion.py
+    │       │   │   │   │   ├── [-rw-r--r--]  autocompletion.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  base_command.py
+    │       │   │   │   │   ├── [-rw-r--r--]  base_command.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  cmdoptions.py
+    │       │   │   │   │   ├── [-rw-r--r--]  cmdoptions.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  main_parser.py
+    │       │   │   │   │   ├── [-rw-r--r--]  main_parser.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  parser.py
+    │       │   │   │   │   ├── [-rw-r--r--]  parser.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  status_codes.py
+    │       │   │   │   │   └── [-rw-r--r--]  status_codes.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  commands
+    │       │   │   │   │   ├── [-rw-r--r--]  check.py
+    │       │   │   │   │   ├── [-rw-r--r--]  check.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  completion.py
+    │       │   │   │   │   ├── [-rw-r--r--]  completion.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  configuration.py
+    │       │   │   │   │   ├── [-rw-r--r--]  configuration.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  debug.py
+    │       │   │   │   │   ├── [-rw-r--r--]  debug.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  download.py
+    │       │   │   │   │   ├── [-rw-r--r--]  download.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  freeze.py
+    │       │   │   │   │   ├── [-rw-r--r--]  freeze.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  hash.py
+    │       │   │   │   │   ├── [-rw-r--r--]  hash.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  help.py
+    │       │   │   │   │   ├── [-rw-r--r--]  help.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  install.py
+    │       │   │   │   │   ├── [-rw-r--r--]  install.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  list.py
+    │       │   │   │   │   ├── [-rw-r--r--]  list.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  search.py
+    │       │   │   │   │   ├── [-rw-r--r--]  search.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  show.py
+    │       │   │   │   │   ├── [-rw-r--r--]  show.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  uninstall.py
+    │       │   │   │   │   ├── [-rw-r--r--]  uninstall.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  wheel.py
+    │       │   │   │   │   └── [-rw-r--r--]  wheel.pyc
+    │       │   │   │   ├── [-rw-r--r--]  configuration.py
+    │       │   │   │   ├── [-rw-r--r--]  configuration.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  distributions
+    │       │   │   │   │   ├── [-rw-r--r--]  base.py
+    │       │   │   │   │   ├── [-rw-r--r--]  base.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  installed.py
+    │       │   │   │   │   ├── [-rw-r--r--]  installed.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  source.py
+    │       │   │   │   │   ├── [-rw-r--r--]  source.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  wheel.py
+    │       │   │   │   │   └── [-rw-r--r--]  wheel.pyc
+    │       │   │   │   ├── [-rw-r--r--]  download.py
+    │       │   │   │   ├── [-rw-r--r--]  download.pyc
+    │       │   │   │   ├── [-rw-r--r--]  exceptions.py
+    │       │   │   │   ├── [-rw-r--r--]  exceptions.pyc
+    │       │   │   │   ├── [-rw-r--r--]  index.py
+    │       │   │   │   ├── [-rw-r--r--]  index.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  legacy_resolve.py
+    │       │   │   │   ├── [-rw-r--r--]  legacy_resolve.pyc
+    │       │   │   │   ├── [-rw-r--r--]  locations.py
+    │       │   │   │   ├── [-rw-r--r--]  locations.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  models
+    │       │   │   │   │   ├── [-rw-r--r--]  candidate.py
+    │       │   │   │   │   ├── [-rw-r--r--]  candidate.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  format_control.py
+    │       │   │   │   │   ├── [-rw-r--r--]  format_control.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  index.py
+    │       │   │   │   │   ├── [-rw-r--r--]  index.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  link.py
+    │       │   │   │   │   ├── [-rw-r--r--]  link.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  search_scope.py
+    │       │   │   │   │   ├── [-rw-r--r--]  search_scope.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  selection_prefs.py
+    │       │   │   │   │   ├── [-rw-r--r--]  selection_prefs.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  target_python.py
+    │       │   │   │   │   └── [-rw-r--r--]  target_python.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  operations
+    │       │   │   │   │   ├── [-rw-r--r--]  check.py
+    │       │   │   │   │   ├── [-rw-r--r--]  check.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  freeze.py
+    │       │   │   │   │   ├── [-rw-r--r--]  freeze.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  prepare.py
+    │       │   │   │   │   └── [-rw-r--r--]  prepare.pyc
+    │       │   │   │   ├── [-rw-r--r--]  pep425tags.py
+    │       │   │   │   ├── [-rw-r--r--]  pep425tags.pyc
+    │       │   │   │   ├── [-rw-r--r--]  pyproject.py
+    │       │   │   │   ├── [-rw-r--r--]  pyproject.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  req
+    │       │   │   │   │   ├── [-rw-r--r--]  constructors.py
+    │       │   │   │   │   ├── [-rw-r--r--]  constructors.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  req_file.py
+    │       │   │   │   │   ├── [-rw-r--r--]  req_file.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  req_install.py
+    │       │   │   │   │   ├── [-rw-r--r--]  req_install.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  req_set.py
+    │       │   │   │   │   ├── [-rw-r--r--]  req_set.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  req_tracker.py
+    │       │   │   │   │   ├── [-rw-r--r--]  req_tracker.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  req_uninstall.py
+    │       │   │   │   │   └── [-rw-r--r--]  req_uninstall.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  utils
+    │       │   │   │   │   ├── [-rw-r--r--]  appdirs.py
+    │       │   │   │   │   ├── [-rw-r--r--]  appdirs.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  compat.py
+    │       │   │   │   │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  deprecation.py
+    │       │   │   │   │   ├── [-rw-r--r--]  deprecation.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  encoding.py
+    │       │   │   │   │   ├── [-rw-r--r--]  encoding.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  filesystem.py
+    │       │   │   │   │   ├── [-rw-r--r--]  filesystem.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  glibc.py
+    │       │   │   │   │   ├── [-rw-r--r--]  glibc.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  hashes.py
+    │       │   │   │   │   ├── [-rw-r--r--]  hashes.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  logging.py
+    │       │   │   │   │   ├── [-rw-r--r--]  logging.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  marker_files.py
+    │       │   │   │   │   ├── [-rw-r--r--]  marker_files.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  misc.py
+    │       │   │   │   │   ├── [-rw-r--r--]  misc.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  models.py
+    │       │   │   │   │   ├── [-rw-r--r--]  models.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  outdated.py
+    │       │   │   │   │   ├── [-rw-r--r--]  outdated.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  packaging.py
+    │       │   │   │   │   ├── [-rw-r--r--]  packaging.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  setuptools_build.py
+    │       │   │   │   │   ├── [-rw-r--r--]  setuptools_build.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  temp_dir.py
+    │       │   │   │   │   ├── [-rw-r--r--]  temp_dir.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  typing.py
+    │       │   │   │   │   ├── [-rw-r--r--]  typing.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  ui.py
+    │       │   │   │   │   ├── [-rw-r--r--]  ui.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  virtualenv.py
+    │       │   │   │   │   └── [-rw-r--r--]  virtualenv.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  vcs
+    │       │   │   │   │   ├── [-rw-r--r--]  bazaar.py
+    │       │   │   │   │   ├── [-rw-r--r--]  bazaar.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  git.py
+    │       │   │   │   │   ├── [-rw-r--r--]  git.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  mercurial.py
+    │       │   │   │   │   ├── [-rw-r--r--]  mercurial.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  subversion.py
+    │       │   │   │   │   ├── [-rw-r--r--]  subversion.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  versioncontrol.py
+    │       │   │   │   │   └── [-rw-r--r--]  versioncontrol.pyc
+    │       │   │   │   ├── [-rw-r--r--]  wheel.py
+    │       │   │   │   └── [-rw-r--r--]  wheel.pyc
+    │       │   │   ├── [-rw-r--r--]  __main__.py
+    │       │   │   ├── [-rw-r--r--]  __main__.pyc
+    │       │   │   └── [drwxr-xr-x]  _vendor
+    │       │   │       ├── [-rw-r--r--]  appdirs.py
+    │       │   │       ├── [-rw-r--r--]  appdirs.pyc
+    │       │   │       ├── [drwxr-xr-x]  cachecontrol
+    │       │   │       │   ├── [-rw-r--r--]  adapter.py
+    │       │   │       │   ├── [-rw-r--r--]  adapter.pyc
+    │       │   │       │   ├── [-rw-r--r--]  cache.py
+    │       │   │       │   ├── [-rw-r--r--]  cache.pyc
+    │       │   │       │   ├── [drwxr-xr-x]  caches
+    │       │   │       │   │   ├── [-rw-r--r--]  file_cache.py
+    │       │   │       │   │   ├── [-rw-r--r--]  file_cache.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  redis_cache.py
+    │       │   │       │   │   └── [-rw-r--r--]  redis_cache.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _cmd.py
+    │       │   │       │   ├── [-rw-r--r--]  _cmd.pyc
+    │       │   │       │   ├── [-rw-r--r--]  compat.py
+    │       │   │       │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │       │   ├── [-rw-r--r--]  controller.py
+    │       │   │       │   ├── [-rw-r--r--]  controller.pyc
+    │       │   │       │   ├── [-rw-r--r--]  filewrapper.py
+    │       │   │       │   ├── [-rw-r--r--]  filewrapper.pyc
+    │       │   │       │   ├── [-rw-r--r--]  heuristics.py
+    │       │   │       │   ├── [-rw-r--r--]  heuristics.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  serialize.py
+    │       │   │       │   ├── [-rw-r--r--]  serialize.pyc
+    │       │   │       │   ├── [-rw-r--r--]  wrapper.py
+    │       │   │       │   └── [-rw-r--r--]  wrapper.pyc
+    │       │   │       ├── [drwxr-xr-x]  certifi
+    │       │   │       │   ├── [-rw-r--r--]  cacert.pem
+    │       │   │       │   ├── [-rw-r--r--]  core.py
+    │       │   │       │   ├── [-rw-r--r--]  core.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __main__.py
+    │       │   │       │   └── [-rw-r--r--]  __main__.pyc
+    │       │   │       ├── [drwxr-xr-x]  chardet
+    │       │   │       │   ├── [-rw-r--r--]  big5freq.py
+    │       │   │       │   ├── [-rw-r--r--]  big5freq.pyc
+    │       │   │       │   ├── [-rw-r--r--]  big5prober.py
+    │       │   │       │   ├── [-rw-r--r--]  big5prober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  chardistribution.py
+    │       │   │       │   ├── [-rw-r--r--]  chardistribution.pyc
+    │       │   │       │   ├── [-rw-r--r--]  charsetgroupprober.py
+    │       │   │       │   ├── [-rw-r--r--]  charsetgroupprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  charsetprober.py
+    │       │   │       │   ├── [-rw-r--r--]  charsetprober.pyc
+    │       │   │       │   ├── [drwxr-xr-x]  cli
+    │       │   │       │   │   ├── [-rw-r--r--]  chardetect.py
+    │       │   │       │   │   ├── [-rw-r--r--]  chardetect.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   └── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  codingstatemachine.py
+    │       │   │       │   ├── [-rw-r--r--]  codingstatemachine.pyc
+    │       │   │       │   ├── [-rw-r--r--]  compat.py
+    │       │   │       │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │       │   ├── [-rw-r--r--]  cp949prober.py
+    │       │   │       │   ├── [-rw-r--r--]  cp949prober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  enums.py
+    │       │   │       │   ├── [-rw-r--r--]  enums.pyc
+    │       │   │       │   ├── [-rw-r--r--]  escprober.py
+    │       │   │       │   ├── [-rw-r--r--]  escprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  escsm.py
+    │       │   │       │   ├── [-rw-r--r--]  escsm.pyc
+    │       │   │       │   ├── [-rw-r--r--]  eucjpprober.py
+    │       │   │       │   ├── [-rw-r--r--]  eucjpprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  euckrfreq.py
+    │       │   │       │   ├── [-rw-r--r--]  euckrfreq.pyc
+    │       │   │       │   ├── [-rw-r--r--]  euckrprober.py
+    │       │   │       │   ├── [-rw-r--r--]  euckrprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  euctwfreq.py
+    │       │   │       │   ├── [-rw-r--r--]  euctwfreq.pyc
+    │       │   │       │   ├── [-rw-r--r--]  euctwprober.py
+    │       │   │       │   ├── [-rw-r--r--]  euctwprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  gb2312freq.py
+    │       │   │       │   ├── [-rw-r--r--]  gb2312freq.pyc
+    │       │   │       │   ├── [-rw-r--r--]  gb2312prober.py
+    │       │   │       │   ├── [-rw-r--r--]  gb2312prober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  hebrewprober.py
+    │       │   │       │   ├── [-rw-r--r--]  hebrewprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  jisfreq.py
+    │       │   │       │   ├── [-rw-r--r--]  jisfreq.pyc
+    │       │   │       │   ├── [-rw-r--r--]  jpcntx.py
+    │       │   │       │   ├── [-rw-r--r--]  jpcntx.pyc
+    │       │   │       │   ├── [-rw-r--r--]  langbulgarianmodel.py
+    │       │   │       │   ├── [-rw-r--r--]  langbulgarianmodel.pyc
+    │       │   │       │   ├── [-rw-r--r--]  langcyrillicmodel.py
+    │       │   │       │   ├── [-rw-r--r--]  langcyrillicmodel.pyc
+    │       │   │       │   ├── [-rw-r--r--]  langgreekmodel.py
+    │       │   │       │   ├── [-rw-r--r--]  langgreekmodel.pyc
+    │       │   │       │   ├── [-rw-r--r--]  langhebrewmodel.py
+    │       │   │       │   ├── [-rw-r--r--]  langhebrewmodel.pyc
+    │       │   │       │   ├── [-rw-r--r--]  langhungarianmodel.py
+    │       │   │       │   ├── [-rw-r--r--]  langhungarianmodel.pyc
+    │       │   │       │   ├── [-rw-r--r--]  langthaimodel.py
+    │       │   │       │   ├── [-rw-r--r--]  langthaimodel.pyc
+    │       │   │       │   ├── [-rw-r--r--]  langturkishmodel.py
+    │       │   │       │   ├── [-rw-r--r--]  langturkishmodel.pyc
+    │       │   │       │   ├── [-rw-r--r--]  latin1prober.py
+    │       │   │       │   ├── [-rw-r--r--]  latin1prober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  mbcharsetprober.py
+    │       │   │       │   ├── [-rw-r--r--]  mbcharsetprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  mbcsgroupprober.py
+    │       │   │       │   ├── [-rw-r--r--]  mbcsgroupprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  mbcssm.py
+    │       │   │       │   ├── [-rw-r--r--]  mbcssm.pyc
+    │       │   │       │   ├── [-rw-r--r--]  sbcharsetprober.py
+    │       │   │       │   ├── [-rw-r--r--]  sbcharsetprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  sbcsgroupprober.py
+    │       │   │       │   ├── [-rw-r--r--]  sbcsgroupprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  sjisprober.py
+    │       │   │       │   ├── [-rw-r--r--]  sjisprober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  universaldetector.py
+    │       │   │       │   ├── [-rw-r--r--]  universaldetector.pyc
+    │       │   │       │   ├── [-rw-r--r--]  utf8prober.py
+    │       │   │       │   ├── [-rw-r--r--]  utf8prober.pyc
+    │       │   │       │   ├── [-rw-r--r--]  version.py
+    │       │   │       │   └── [-rw-r--r--]  version.pyc
+    │       │   │       ├── [drwxr-xr-x]  colorama
+    │       │   │       │   ├── [-rw-r--r--]  ansi.py
+    │       │   │       │   ├── [-rw-r--r--]  ansi.pyc
+    │       │   │       │   ├── [-rw-r--r--]  ansitowin32.py
+    │       │   │       │   ├── [-rw-r--r--]  ansitowin32.pyc
+    │       │   │       │   ├── [-rw-r--r--]  initialise.py
+    │       │   │       │   ├── [-rw-r--r--]  initialise.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  win32.py
+    │       │   │       │   ├── [-rw-r--r--]  win32.pyc
+    │       │   │       │   ├── [-rw-r--r--]  winterm.py
+    │       │   │       │   └── [-rw-r--r--]  winterm.pyc
+    │       │   │       ├── [drwxr-xr-x]  distlib
+    │       │   │       │   ├── [drwxr-xr-x]  _backport
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  misc.py
+    │       │   │       │   │   ├── [-rw-r--r--]  misc.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  shutil.py
+    │       │   │       │   │   ├── [-rw-r--r--]  shutil.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  sysconfig.cfg
+    │       │   │       │   │   ├── [-rw-r--r--]  sysconfig.py
+    │       │   │       │   │   ├── [-rw-r--r--]  sysconfig.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  tarfile.py
+    │       │   │       │   │   └── [-rw-r--r--]  tarfile.pyc
+    │       │   │       │   ├── [-rw-r--r--]  compat.py
+    │       │   │       │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │       │   ├── [-rw-r--r--]  database.py
+    │       │   │       │   ├── [-rw-r--r--]  database.pyc
+    │       │   │       │   ├── [-rw-r--r--]  index.py
+    │       │   │       │   ├── [-rw-r--r--]  index.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  locators.py
+    │       │   │       │   ├── [-rw-r--r--]  locators.pyc
+    │       │   │       │   ├── [-rw-r--r--]  manifest.py
+    │       │   │       │   ├── [-rw-r--r--]  manifest.pyc
+    │       │   │       │   ├── [-rw-r--r--]  markers.py
+    │       │   │       │   ├── [-rw-r--r--]  markers.pyc
+    │       │   │       │   ├── [-rw-r--r--]  metadata.py
+    │       │   │       │   ├── [-rw-r--r--]  metadata.pyc
+    │       │   │       │   ├── [-rw-r--r--]  resources.py
+    │       │   │       │   ├── [-rw-r--r--]  resources.pyc
+    │       │   │       │   ├── [-rw-r--r--]  scripts.py
+    │       │   │       │   ├── [-rw-r--r--]  scripts.pyc
+    │       │   │       │   ├── [-rw-r--r--]  t32.exe
+    │       │   │       │   ├── [-rw-r--r--]  t64.exe
+    │       │   │       │   ├── [-rw-r--r--]  util.py
+    │       │   │       │   ├── [-rw-r--r--]  util.pyc
+    │       │   │       │   ├── [-rw-r--r--]  version.py
+    │       │   │       │   ├── [-rw-r--r--]  version.pyc
+    │       │   │       │   ├── [-rw-r--r--]  w32.exe
+    │       │   │       │   ├── [-rw-r--r--]  w64.exe
+    │       │   │       │   ├── [-rw-r--r--]  wheel.py
+    │       │   │       │   └── [-rw-r--r--]  wheel.pyc
+    │       │   │       ├── [-rw-r--r--]  distro.py
+    │       │   │       ├── [-rw-r--r--]  distro.pyc
+    │       │   │       ├── [drwxr-xr-x]  html5lib
+    │       │   │       │   ├── [-rw-r--r--]  constants.py
+    │       │   │       │   ├── [-rw-r--r--]  constants.pyc
+    │       │   │       │   ├── [drwxr-xr-x]  filters
+    │       │   │       │   │   ├── [-rw-r--r--]  alphabeticalattributes.py
+    │       │   │       │   │   ├── [-rw-r--r--]  alphabeticalattributes.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  base.py
+    │       │   │       │   │   ├── [-rw-r--r--]  base.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  inject_meta_charset.py
+    │       │   │       │   │   ├── [-rw-r--r--]  inject_meta_charset.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  lint.py
+    │       │   │       │   │   ├── [-rw-r--r--]  lint.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  optionaltags.py
+    │       │   │       │   │   ├── [-rw-r--r--]  optionaltags.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  sanitizer.py
+    │       │   │       │   │   ├── [-rw-r--r--]  sanitizer.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  whitespace.py
+    │       │   │       │   │   └── [-rw-r--r--]  whitespace.pyc
+    │       │   │       │   ├── [-rw-r--r--]  html5parser.py
+    │       │   │       │   ├── [-rw-r--r--]  html5parser.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _ihatexml.py
+    │       │   │       │   ├── [-rw-r--r--]  _ihatexml.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _inputstream.py
+    │       │   │       │   ├── [-rw-r--r--]  _inputstream.pyc
+    │       │   │       │   ├── [-rw-r--r--]  serializer.py
+    │       │   │       │   ├── [-rw-r--r--]  serializer.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _tokenizer.py
+    │       │   │       │   ├── [-rw-r--r--]  _tokenizer.pyc
+    │       │   │       │   ├── [drwxr-xr-x]  treeadapters
+    │       │   │       │   │   ├── [-rw-r--r--]  genshi.py
+    │       │   │       │   │   ├── [-rw-r--r--]  genshi.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  sax.py
+    │       │   │       │   │   └── [-rw-r--r--]  sax.pyc
+    │       │   │       │   ├── [drwxr-xr-x]  treebuilders
+    │       │   │       │   │   ├── [-rw-r--r--]  base.py
+    │       │   │       │   │   ├── [-rw-r--r--]  base.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  dom.py
+    │       │   │       │   │   ├── [-rw-r--r--]  dom.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  etree_lxml.py
+    │       │   │       │   │   ├── [-rw-r--r--]  etree_lxml.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  etree.py
+    │       │   │       │   │   ├── [-rw-r--r--]  etree.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   └── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [drwxr-xr-x]  treewalkers
+    │       │   │       │   │   ├── [-rw-r--r--]  base.py
+    │       │   │       │   │   ├── [-rw-r--r--]  base.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  dom.py
+    │       │   │       │   │   ├── [-rw-r--r--]  dom.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  etree_lxml.py
+    │       │   │       │   │   ├── [-rw-r--r--]  etree_lxml.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  etree.py
+    │       │   │       │   │   ├── [-rw-r--r--]  etree.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  genshi.py
+    │       │   │       │   │   ├── [-rw-r--r--]  genshi.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   └── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [drwxr-xr-x]  _trie
+    │       │   │       │   │   ├── [-rw-r--r--]  _base.py
+    │       │   │       │   │   ├── [-rw-r--r--]  _base.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  datrie.py
+    │       │   │       │   │   ├── [-rw-r--r--]  datrie.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  py.py
+    │       │   │       │   │   └── [-rw-r--r--]  py.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _utils.py
+    │       │   │       │   └── [-rw-r--r--]  _utils.pyc
+    │       │   │       ├── [drwxr-xr-x]  idna
+    │       │   │       │   ├── [-rw-r--r--]  codec.py
+    │       │   │       │   ├── [-rw-r--r--]  codec.pyc
+    │       │   │       │   ├── [-rw-r--r--]  compat.py
+    │       │   │       │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │       │   ├── [-rw-r--r--]  core.py
+    │       │   │       │   ├── [-rw-r--r--]  core.pyc
+    │       │   │       │   ├── [-rw-r--r--]  idnadata.py
+    │       │   │       │   ├── [-rw-r--r--]  idnadata.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  intranges.py
+    │       │   │       │   ├── [-rw-r--r--]  intranges.pyc
+    │       │   │       │   ├── [-rw-r--r--]  package_data.py
+    │       │   │       │   ├── [-rw-r--r--]  package_data.pyc
+    │       │   │       │   ├── [-rw-r--r--]  uts46data.py
+    │       │   │       │   └── [-rw-r--r--]  uts46data.pyc
+    │       │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       ├── [-rw-r--r--]  ipaddress.py
+    │       │   │       ├── [-rw-r--r--]  ipaddress.pyc
+    │       │   │       ├── [drwxr-xr-x]  lockfile
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  linklockfile.py
+    │       │   │       │   ├── [-rw-r--r--]  linklockfile.pyc
+    │       │   │       │   ├── [-rw-r--r--]  mkdirlockfile.py
+    │       │   │       │   ├── [-rw-r--r--]  mkdirlockfile.pyc
+    │       │   │       │   ├── [-rw-r--r--]  pidlockfile.py
+    │       │   │       │   ├── [-rw-r--r--]  pidlockfile.pyc
+    │       │   │       │   ├── [-rw-r--r--]  sqlitelockfile.py
+    │       │   │       │   ├── [-rw-r--r--]  sqlitelockfile.pyc
+    │       │   │       │   ├── [-rw-r--r--]  symlinklockfile.py
+    │       │   │       │   └── [-rw-r--r--]  symlinklockfile.pyc
+    │       │   │       ├── [drwxr-xr-x]  msgpack
+    │       │   │       │   ├── [-rw-r--r--]  exceptions.py
+    │       │   │       │   ├── [-rw-r--r--]  exceptions.pyc
+    │       │   │       │   ├── [-rw-r--r--]  fallback.py
+    │       │   │       │   ├── [-rw-r--r--]  fallback.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _version.py
+    │       │   │       │   └── [-rw-r--r--]  _version.pyc
+    │       │   │       ├── [drwxr-xr-x]  packaging
+    │       │   │       │   ├── [-rw-r--r--]  __about__.py
+    │       │   │       │   ├── [-rw-r--r--]  __about__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _compat.py
+    │       │   │       │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  markers.py
+    │       │   │       │   ├── [-rw-r--r--]  markers.pyc
+    │       │   │       │   ├── [-rw-r--r--]  requirements.py
+    │       │   │       │   ├── [-rw-r--r--]  requirements.pyc
+    │       │   │       │   ├── [-rw-r--r--]  specifiers.py
+    │       │   │       │   ├── [-rw-r--r--]  specifiers.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _structures.py
+    │       │   │       │   ├── [-rw-r--r--]  _structures.pyc
+    │       │   │       │   ├── [-rw-r--r--]  utils.py
+    │       │   │       │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │       │   ├── [-rw-r--r--]  version.py
+    │       │   │       │   └── [-rw-r--r--]  version.pyc
+    │       │   │       ├── [drwxr-xr-x]  pep517
+    │       │   │       │   ├── [-rw-r--r--]  build.py
+    │       │   │       │   ├── [-rw-r--r--]  build.pyc
+    │       │   │       │   ├── [-rw-r--r--]  check.py
+    │       │   │       │   ├── [-rw-r--r--]  check.pyc
+    │       │   │       │   ├── [-rw-r--r--]  colorlog.py
+    │       │   │       │   ├── [-rw-r--r--]  colorlog.pyc
+    │       │   │       │   ├── [-rw-r--r--]  compat.py
+    │       │   │       │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │       │   ├── [-rw-r--r--]  envbuild.py
+    │       │   │       │   ├── [-rw-r--r--]  envbuild.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _in_process.py
+    │       │   │       │   ├── [-rw-r--r--]  _in_process.pyc
+    │       │   │       │   ├── [-rw-r--r--]  wrappers.py
+    │       │   │       │   └── [-rw-r--r--]  wrappers.pyc
+    │       │   │       ├── [drwxr-xr-x]  pkg_resources
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  py31compat.py
+    │       │   │       │   └── [-rw-r--r--]  py31compat.pyc
+    │       │   │       ├── [drwxr-xr-x]  progress
+    │       │   │       │   ├── [-rw-r--r--]  bar.py
+    │       │   │       │   ├── [-rw-r--r--]  bar.pyc
+    │       │   │       │   ├── [-rw-r--r--]  counter.py
+    │       │   │       │   ├── [-rw-r--r--]  counter.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  spinner.py
+    │       │   │       │   └── [-rw-r--r--]  spinner.pyc
+    │       │   │       ├── [-rw-r--r--]  pyparsing.py
+    │       │   │       ├── [-rw-r--r--]  pyparsing.pyc
+    │       │   │       ├── [drwxr-xr-x]  pytoml
+    │       │   │       │   ├── [-rw-r--r--]  core.py
+    │       │   │       │   ├── [-rw-r--r--]  core.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  parser.py
+    │       │   │       │   ├── [-rw-r--r--]  parser.pyc
+    │       │   │       │   ├── [-rw-r--r--]  test.py
+    │       │   │       │   ├── [-rw-r--r--]  test.pyc
+    │       │   │       │   ├── [-rw-r--r--]  utils.py
+    │       │   │       │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │       │   ├── [-rw-r--r--]  writer.py
+    │       │   │       │   └── [-rw-r--r--]  writer.pyc
+    │       │   │       ├── [drwxr-xr-x]  requests
+    │       │   │       │   ├── [-rw-r--r--]  adapters.py
+    │       │   │       │   ├── [-rw-r--r--]  adapters.pyc
+    │       │   │       │   ├── [-rw-r--r--]  api.py
+    │       │   │       │   ├── [-rw-r--r--]  api.pyc
+    │       │   │       │   ├── [-rw-r--r--]  auth.py
+    │       │   │       │   ├── [-rw-r--r--]  auth.pyc
+    │       │   │       │   ├── [-rw-r--r--]  certs.py
+    │       │   │       │   ├── [-rw-r--r--]  certs.pyc
+    │       │   │       │   ├── [-rw-r--r--]  compat.py
+    │       │   │       │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │       │   ├── [-rw-r--r--]  cookies.py
+    │       │   │       │   ├── [-rw-r--r--]  cookies.pyc
+    │       │   │       │   ├── [-rw-r--r--]  exceptions.py
+    │       │   │       │   ├── [-rw-r--r--]  exceptions.pyc
+    │       │   │       │   ├── [-rw-r--r--]  help.py
+    │       │   │       │   ├── [-rw-r--r--]  help.pyc
+    │       │   │       │   ├── [-rw-r--r--]  hooks.py
+    │       │   │       │   ├── [-rw-r--r--]  hooks.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _internal_utils.py
+    │       │   │       │   ├── [-rw-r--r--]  _internal_utils.pyc
+    │       │   │       │   ├── [-rw-r--r--]  models.py
+    │       │   │       │   ├── [-rw-r--r--]  models.pyc
+    │       │   │       │   ├── [-rw-r--r--]  packages.py
+    │       │   │       │   ├── [-rw-r--r--]  packages.pyc
+    │       │   │       │   ├── [-rw-r--r--]  sessions.py
+    │       │   │       │   ├── [-rw-r--r--]  sessions.pyc
+    │       │   │       │   ├── [-rw-r--r--]  status_codes.py
+    │       │   │       │   ├── [-rw-r--r--]  status_codes.pyc
+    │       │   │       │   ├── [-rw-r--r--]  structures.py
+    │       │   │       │   ├── [-rw-r--r--]  structures.pyc
+    │       │   │       │   ├── [-rw-r--r--]  utils.py
+    │       │   │       │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __version__.py
+    │       │   │       │   └── [-rw-r--r--]  __version__.pyc
+    │       │   │       ├── [-rw-r--r--]  retrying.py
+    │       │   │       ├── [-rw-r--r--]  retrying.pyc
+    │       │   │       ├── [-rw-r--r--]  six.py
+    │       │   │       ├── [-rw-r--r--]  six.pyc
+    │       │   │       ├── [drwxr-xr-x]  urllib3
+    │       │   │       │   ├── [-rw-r--r--]  _collections.py
+    │       │   │       │   ├── [-rw-r--r--]  _collections.pyc
+    │       │   │       │   ├── [-rw-r--r--]  connectionpool.py
+    │       │   │       │   ├── [-rw-r--r--]  connectionpool.pyc
+    │       │   │       │   ├── [-rw-r--r--]  connection.py
+    │       │   │       │   ├── [-rw-r--r--]  connection.pyc
+    │       │   │       │   ├── [drwxr-xr-x]  contrib
+    │       │   │       │   │   ├── [-rw-r--r--]  _appengine_environ.py
+    │       │   │       │   │   ├── [-rw-r--r--]  _appengine_environ.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  appengine.py
+    │       │   │       │   │   ├── [-rw-r--r--]  appengine.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  ntlmpool.py
+    │       │   │       │   │   ├── [-rw-r--r--]  ntlmpool.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  pyopenssl.py
+    │       │   │       │   │   ├── [-rw-r--r--]  pyopenssl.pyc
+    │       │   │       │   │   ├── [drwxr-xr-x]  _securetransport
+    │       │   │       │   │   │   ├── [-rw-r--r--]  bindings.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  bindings.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  low_level.py
+    │       │   │       │   │   │   └── [-rw-r--r--]  low_level.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  securetransport.py
+    │       │   │       │   │   ├── [-rw-r--r--]  securetransport.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  socks.py
+    │       │   │       │   │   └── [-rw-r--r--]  socks.pyc
+    │       │   │       │   ├── [-rw-r--r--]  exceptions.py
+    │       │   │       │   ├── [-rw-r--r--]  exceptions.pyc
+    │       │   │       │   ├── [-rw-r--r--]  fields.py
+    │       │   │       │   ├── [-rw-r--r--]  fields.pyc
+    │       │   │       │   ├── [-rw-r--r--]  filepost.py
+    │       │   │       │   ├── [-rw-r--r--]  filepost.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [drwxr-xr-x]  packages
+    │       │   │       │   │   ├── [drwxr-xr-x]  backports
+    │       │   │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  makefile.py
+    │       │   │       │   │   │   └── [-rw-r--r--]  makefile.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   ├── [drwxr-xr-x]  rfc3986
+    │       │   │       │   │   │   ├── [-rw-r--r--]  abnf_regexp.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  abnf_regexp.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  api.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  api.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  builder.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  builder.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  compat.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  exceptions.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  exceptions.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  iri.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  iri.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  misc.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  misc.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  _mixin.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  _mixin.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  normalizers.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  normalizers.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  parseresult.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  parseresult.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  uri.py
+    │       │   │       │   │   │   ├── [-rw-r--r--]  uri.pyc
+    │       │   │       │   │   │   ├── [-rw-r--r--]  validators.py
+    │       │   │       │   │   │   └── [-rw-r--r--]  validators.pyc
+    │       │   │       │   │   ├── [-rw-r--r--]  six.py
+    │       │   │       │   │   ├── [-rw-r--r--]  six.pyc
+    │       │   │       │   │   └── [drwxr-xr-x]  ssl_match_hostname
+    │       │   │       │   │       ├── [-rw-r--r--]  _implementation.py
+    │       │   │       │   │       ├── [-rw-r--r--]  _implementation.pyc
+    │       │   │       │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   │       └── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  poolmanager.py
+    │       │   │       │   ├── [-rw-r--r--]  poolmanager.pyc
+    │       │   │       │   ├── [-rw-r--r--]  request.py
+    │       │   │       │   ├── [-rw-r--r--]  request.pyc
+    │       │   │       │   ├── [-rw-r--r--]  response.py
+    │       │   │       │   ├── [-rw-r--r--]  response.pyc
+    │       │   │       │   └── [drwxr-xr-x]  util
+    │       │   │       │       ├── [-rw-r--r--]  connection.py
+    │       │   │       │       ├── [-rw-r--r--]  connection.pyc
+    │       │   │       │       ├── [-rw-r--r--]  __init__.py
+    │       │   │       │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │       ├── [-rw-r--r--]  queue.py
+    │       │   │       │       ├── [-rw-r--r--]  queue.pyc
+    │       │   │       │       ├── [-rw-r--r--]  request.py
+    │       │   │       │       ├── [-rw-r--r--]  request.pyc
+    │       │   │       │       ├── [-rw-r--r--]  response.py
+    │       │   │       │       ├── [-rw-r--r--]  response.pyc
+    │       │   │       │       ├── [-rw-r--r--]  retry.py
+    │       │   │       │       ├── [-rw-r--r--]  retry.pyc
+    │       │   │       │       ├── [-rw-r--r--]  ssl_.py
+    │       │   │       │       ├── [-rw-r--r--]  ssl_.pyc
+    │       │   │       │       ├── [-rw-r--r--]  timeout.py
+    │       │   │       │       ├── [-rw-r--r--]  timeout.pyc
+    │       │   │       │       ├── [-rw-r--r--]  url.py
+    │       │   │       │       ├── [-rw-r--r--]  url.pyc
+    │       │   │       │       ├── [-rw-r--r--]  wait.py
+    │       │   │       │       └── [-rw-r--r--]  wait.pyc
+    │       │   │       └── [drwxr-xr-x]  webencodings
+    │       │   │           ├── [-rw-r--r--]  __init__.py
+    │       │   │           ├── [-rw-r--r--]  __init__.pyc
+    │       │   │           ├── [-rw-r--r--]  labels.py
+    │       │   │           ├── [-rw-r--r--]  labels.pyc
+    │       │   │           ├── [-rw-r--r--]  mklabels.py
+    │       │   │           ├── [-rw-r--r--]  mklabels.pyc
+    │       │   │           ├── [-rw-r--r--]  tests.py
+    │       │   │           ├── [-rw-r--r--]  tests.pyc
+    │       │   │           ├── [-rw-r--r--]  x_user_defined.py
+    │       │   │           └── [-rw-r--r--]  x_user_defined.pyc
+    │       │   ├── [drwxr-xr-x]  pip-19.2.2.dist-info
+    │       │   │   ├── [-rw-r--r--]  entry_points.txt
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE.txt
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  pkg_resources
+    │       │   │   ├── [drwxr-xr-x]  extern
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   └── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  py31compat.py
+    │       │   │   ├── [-rw-r--r--]  py31compat.pyc
+    │       │   │   └── [drwxr-xr-x]  _vendor
+    │       │   │       ├── [-rw-r--r--]  appdirs.py
+    │       │   │       ├── [-rw-r--r--]  appdirs.pyc
+    │       │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       ├── [drwxr-xr-x]  packaging
+    │       │   │       │   ├── [-rw-r--r--]  __about__.py
+    │       │   │       │   ├── [-rw-r--r--]  __about__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _compat.py
+    │       │   │       │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │       │   ├── [-rw-r--r--]  __init__.py
+    │       │   │       │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │       │   ├── [-rw-r--r--]  markers.py
+    │       │   │       │   ├── [-rw-r--r--]  markers.pyc
+    │       │   │       │   ├── [-rw-r--r--]  requirements.py
+    │       │   │       │   ├── [-rw-r--r--]  requirements.pyc
+    │       │   │       │   ├── [-rw-r--r--]  specifiers.py
+    │       │   │       │   ├── [-rw-r--r--]  specifiers.pyc
+    │       │   │       │   ├── [-rw-r--r--]  _structures.py
+    │       │   │       │   ├── [-rw-r--r--]  _structures.pyc
+    │       │   │       │   ├── [-rw-r--r--]  utils.py
+    │       │   │       │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │       │   ├── [-rw-r--r--]  version.py
+    │       │   │       │   └── [-rw-r--r--]  version.pyc
+    │       │   │       ├── [-rw-r--r--]  pyparsing.py
+    │       │   │       ├── [-rw-r--r--]  pyparsing.pyc
+    │       │   │       ├── [-rw-r--r--]  six.py
+    │       │   │       └── [-rw-r--r--]  six.pyc
+    │       │   ├── [drwxr-xr-x]  pkg_resources-0.0.0.dist-info
+    │       │   │   ├── [-rw-r--r--]  DESCRIPTION.rst
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  metadata.json
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  setuptools
+    │       │   │   ├── [-rw-r--r--]  archive_util.py
+    │       │   │   ├── [-rw-r--r--]  archive_util.pyc
+    │       │   │   ├── [-rw-r--r--]  build_meta.py
+    │       │   │   ├── [-rw-r--r--]  build_meta.pyc
+    │       │   │   ├── [-rw-r--r--]  cli-32.exe
+    │       │   │   ├── [-rw-r--r--]  cli-64.exe
+    │       │   │   ├── [-rw-r--r--]  cli.exe
+    │       │   │   ├── [drwxr-xr-x]  command
+    │       │   │   │   ├── [-rw-r--r--]  alias.py
+    │       │   │   │   ├── [-rw-r--r--]  alias.pyc
+    │       │   │   │   ├── [-rw-r--r--]  bdist_egg.py
+    │       │   │   │   ├── [-rw-r--r--]  bdist_egg.pyc
+    │       │   │   │   ├── [-rw-r--r--]  bdist_rpm.py
+    │       │   │   │   ├── [-rw-r--r--]  bdist_rpm.pyc
+    │       │   │   │   ├── [-rw-r--r--]  bdist_wininst.py
+    │       │   │   │   ├── [-rw-r--r--]  bdist_wininst.pyc
+    │       │   │   │   ├── [-rw-r--r--]  build_clib.py
+    │       │   │   │   ├── [-rw-r--r--]  build_clib.pyc
+    │       │   │   │   ├── [-rw-r--r--]  build_ext.py
+    │       │   │   │   ├── [-rw-r--r--]  build_ext.pyc
+    │       │   │   │   ├── [-rw-r--r--]  build_py.py
+    │       │   │   │   ├── [-rw-r--r--]  build_py.pyc
+    │       │   │   │   ├── [-rw-r--r--]  develop.py
+    │       │   │   │   ├── [-rw-r--r--]  develop.pyc
+    │       │   │   │   ├── [-rw-r--r--]  dist_info.py
+    │       │   │   │   ├── [-rw-r--r--]  dist_info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  easy_install.py
+    │       │   │   │   ├── [-rw-r--r--]  easy_install.pyc
+    │       │   │   │   ├── [-rw-r--r--]  egg_info.py
+    │       │   │   │   ├── [-rw-r--r--]  egg_info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  install_egg_info.py
+    │       │   │   │   ├── [-rw-r--r--]  install_egg_info.pyc
+    │       │   │   │   ├── [-rw-r--r--]  install_lib.py
+    │       │   │   │   ├── [-rw-r--r--]  install_lib.pyc
+    │       │   │   │   ├── [-rw-r--r--]  install.py
+    │       │   │   │   ├── [-rw-r--r--]  install.pyc
+    │       │   │   │   ├── [-rw-r--r--]  install_scripts.py
+    │       │   │   │   ├── [-rw-r--r--]  install_scripts.pyc
+    │       │   │   │   ├── [-rw-r--r--]  launcher manifest.xml
+    │       │   │   │   ├── [-rw-r--r--]  py36compat.py
+    │       │   │   │   ├── [-rw-r--r--]  py36compat.pyc
+    │       │   │   │   ├── [-rw-r--r--]  register.py
+    │       │   │   │   ├── [-rw-r--r--]  register.pyc
+    │       │   │   │   ├── [-rw-r--r--]  rotate.py
+    │       │   │   │   ├── [-rw-r--r--]  rotate.pyc
+    │       │   │   │   ├── [-rw-r--r--]  saveopts.py
+    │       │   │   │   ├── [-rw-r--r--]  saveopts.pyc
+    │       │   │   │   ├── [-rw-r--r--]  sdist.py
+    │       │   │   │   ├── [-rw-r--r--]  sdist.pyc
+    │       │   │   │   ├── [-rw-r--r--]  setopt.py
+    │       │   │   │   ├── [-rw-r--r--]  setopt.pyc
+    │       │   │   │   ├── [-rw-r--r--]  test.py
+    │       │   │   │   ├── [-rw-r--r--]  test.pyc
+    │       │   │   │   ├── [-rw-r--r--]  upload_docs.py
+    │       │   │   │   ├── [-rw-r--r--]  upload_docs.pyc
+    │       │   │   │   ├── [-rw-r--r--]  upload.py
+    │       │   │   │   └── [-rw-r--r--]  upload.pyc
+    │       │   │   ├── [-rw-r--r--]  config.py
+    │       │   │   ├── [-rw-r--r--]  config.pyc
+    │       │   │   ├── [-rw-r--r--]  depends.py
+    │       │   │   ├── [-rw-r--r--]  depends.pyc
+    │       │   │   ├── [-rw-r--r--]  _deprecation_warning.py
+    │       │   │   ├── [-rw-r--r--]  _deprecation_warning.pyc
+    │       │   │   ├── [-rw-r--r--]  dep_util.py
+    │       │   │   ├── [-rw-r--r--]  dep_util.pyc
+    │       │   │   ├── [-rw-r--r--]  dist.py
+    │       │   │   ├── [-rw-r--r--]  dist.pyc
+    │       │   │   ├── [-rw-r--r--]  extension.py
+    │       │   │   ├── [-rw-r--r--]  extension.pyc
+    │       │   │   ├── [drwxr-xr-x]  extern
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   └── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  glibc.py
+    │       │   │   ├── [-rw-r--r--]  glibc.pyc
+    │       │   │   ├── [-rw-r--r--]  glob.py
+    │       │   │   ├── [-rw-r--r--]  glob.pyc
+    │       │   │   ├── [-rw-r--r--]  gui-32.exe
+    │       │   │   ├── [-rw-r--r--]  gui-64.exe
+    │       │   │   ├── [-rw-r--r--]  gui.exe
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  launch.py
+    │       │   │   ├── [-rw-r--r--]  launch.pyc
+    │       │   │   ├── [-rw-r--r--]  lib2to3_ex.py
+    │       │   │   ├── [-rw-r--r--]  lib2to3_ex.pyc
+    │       │   │   ├── [-rw-r--r--]  monkey.py
+    │       │   │   ├── [-rw-r--r--]  monkey.pyc
+    │       │   │   ├── [-rw-r--r--]  msvc.py
+    │       │   │   ├── [-rw-r--r--]  msvc.pyc
+    │       │   │   ├── [-rw-r--r--]  namespaces.py
+    │       │   │   ├── [-rw-r--r--]  namespaces.pyc
+    │       │   │   ├── [-rw-r--r--]  package_index.py
+    │       │   │   ├── [-rw-r--r--]  package_index.pyc
+    │       │   │   ├── [-rw-r--r--]  pep425tags.py
+    │       │   │   ├── [-rw-r--r--]  pep425tags.pyc
+    │       │   │   ├── [-rw-r--r--]  py27compat.py
+    │       │   │   ├── [-rw-r--r--]  py27compat.pyc
+    │       │   │   ├── [-rw-r--r--]  py31compat.py
+    │       │   │   ├── [-rw-r--r--]  py31compat.pyc
+    │       │   │   ├── [-rw-r--r--]  py33compat.py
+    │       │   │   ├── [-rw-r--r--]  py33compat.pyc
+    │       │   │   ├── [-rw-r--r--]  sandbox.py
+    │       │   │   ├── [-rw-r--r--]  sandbox.pyc
+    │       │   │   ├── [-rw-r--r--]  script (dev).tmpl
+    │       │   │   ├── [-rw-r--r--]  script.tmpl
+    │       │   │   ├── [-rw-r--r--]  site-patch.py
+    │       │   │   ├── [-rw-r--r--]  site-patch.pyc
+    │       │   │   ├── [-rw-r--r--]  ssl_support.py
+    │       │   │   ├── [-rw-r--r--]  ssl_support.pyc
+    │       │   │   ├── [-rw-r--r--]  unicode_utils.py
+    │       │   │   ├── [-rw-r--r--]  unicode_utils.pyc
+    │       │   │   ├── [drwxr-xr-x]  _vendor
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  packaging
+    │       │   │   │   │   ├── [-rw-r--r--]  __about__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __about__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  _compat.py
+    │       │   │   │   │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  markers.py
+    │       │   │   │   │   ├── [-rw-r--r--]  markers.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  requirements.py
+    │       │   │   │   │   ├── [-rw-r--r--]  requirements.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  specifiers.py
+    │       │   │   │   │   ├── [-rw-r--r--]  specifiers.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  _structures.py
+    │       │   │   │   │   ├── [-rw-r--r--]  _structures.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  utils.py
+    │       │   │   │   │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  version.py
+    │       │   │   │   │   └── [-rw-r--r--]  version.pyc
+    │       │   │   │   ├── [-rw-r--r--]  pyparsing.py
+    │       │   │   │   ├── [-rw-r--r--]  pyparsing.pyc
+    │       │   │   │   ├── [-rw-r--r--]  six.py
+    │       │   │   │   └── [-rw-r--r--]  six.pyc
+    │       │   │   ├── [-rw-r--r--]  version.py
+    │       │   │   ├── [-rw-r--r--]  version.pyc
+    │       │   │   ├── [-rw-r--r--]  wheel.py
+    │       │   │   ├── [-rw-r--r--]  wheel.pyc
+    │       │   │   ├── [-rw-r--r--]  windows_support.py
+    │       │   │   └── [-rw-r--r--]  windows_support.pyc
+    │       │   ├── [drwxr-xr-x]  setuptools-41.1.0.dist-info
+    │       │   │   ├── [-rw-r--r--]  dependency_links.txt
+    │       │   │   ├── [-rw-r--r--]  entry_points.txt
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   ├── [-rw-r--r--]  WHEEL
+    │       │   │   └── [-rw-r--r--]  zip-safe
+    │       │   ├── [drwxr-xr-x]  visitor
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   └── [-rw-r--r--]  __init__.pyc
+    │       │   ├── [drwxr-xr-x]  visitor-0.1.3.dist-info
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  werkzeug
+    │       │   │   ├── [-rw-r--r--]  _compat.py
+    │       │   │   ├── [-rw-r--r--]  _compat.pyc
+    │       │   │   ├── [drwxr-xr-x]  contrib
+    │       │   │   │   ├── [-rw-r--r--]  atom.py
+    │       │   │   │   ├── [-rw-r--r--]  atom.pyc
+    │       │   │   │   ├── [-rw-r--r--]  cache.py
+    │       │   │   │   ├── [-rw-r--r--]  cache.pyc
+    │       │   │   │   ├── [-rw-r--r--]  fixers.py
+    │       │   │   │   ├── [-rw-r--r--]  fixers.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  iterio.py
+    │       │   │   │   ├── [-rw-r--r--]  iterio.pyc
+    │       │   │   │   ├── [-rw-r--r--]  lint.py
+    │       │   │   │   ├── [-rw-r--r--]  lint.pyc
+    │       │   │   │   ├── [-rw-r--r--]  profiler.py
+    │       │   │   │   ├── [-rw-r--r--]  profiler.pyc
+    │       │   │   │   ├── [-rw-r--r--]  securecookie.py
+    │       │   │   │   ├── [-rw-r--r--]  securecookie.pyc
+    │       │   │   │   ├── [-rw-r--r--]  sessions.py
+    │       │   │   │   ├── [-rw-r--r--]  sessions.pyc
+    │       │   │   │   ├── [-rw-r--r--]  wrappers.py
+    │       │   │   │   └── [-rw-r--r--]  wrappers.pyc
+    │       │   │   ├── [-rw-r--r--]  datastructures.py
+    │       │   │   ├── [-rw-r--r--]  datastructures.pyc
+    │       │   │   ├── [drwxr-xr-x]  debug
+    │       │   │   │   ├── [-rw-r--r--]  console.py
+    │       │   │   │   ├── [-rw-r--r--]  console.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  repr.py
+    │       │   │   │   ├── [-rw-r--r--]  repr.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  shared
+    │       │   │   │   │   ├── [-rw-r--r--]  console.png
+    │       │   │   │   │   ├── [-rw-r--r--]  debugger.js
+    │       │   │   │   │   ├── [-rw-r--r--]  FONT_LICENSE
+    │       │   │   │   │   ├── [-rw-r--r--]  jquery.js
+    │       │   │   │   │   ├── [-rw-r--r--]  less.png
+    │       │   │   │   │   ├── [-rw-r--r--]  more.png
+    │       │   │   │   │   ├── [-rw-r--r--]  source.png
+    │       │   │   │   │   ├── [-rw-r--r--]  style.css
+    │       │   │   │   │   └── [-rw-r--r--]  ubuntu.ttf
+    │       │   │   │   ├── [-rw-r--r--]  tbtools.py
+    │       │   │   │   └── [-rw-r--r--]  tbtools.pyc
+    │       │   │   ├── [-rw-r--r--]  exceptions.py
+    │       │   │   ├── [-rw-r--r--]  exceptions.pyc
+    │       │   │   ├── [-rw-r--r--]  filesystem.py
+    │       │   │   ├── [-rw-r--r--]  filesystem.pyc
+    │       │   │   ├── [-rw-r--r--]  formparser.py
+    │       │   │   ├── [-rw-r--r--]  formparser.pyc
+    │       │   │   ├── [-rw-r--r--]  http.py
+    │       │   │   ├── [-rw-r--r--]  http.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  _internal.py
+    │       │   │   ├── [-rw-r--r--]  _internal.pyc
+    │       │   │   ├── [-rw-r--r--]  local.py
+    │       │   │   ├── [-rw-r--r--]  local.pyc
+    │       │   │   ├── [drwxr-xr-x]  middleware
+    │       │   │   │   ├── [-rw-r--r--]  dispatcher.py
+    │       │   │   │   ├── [-rw-r--r--]  dispatcher.pyc
+    │       │   │   │   ├── [-rw-r--r--]  http_proxy.py
+    │       │   │   │   ├── [-rw-r--r--]  http_proxy.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  lint.py
+    │       │   │   │   ├── [-rw-r--r--]  lint.pyc
+    │       │   │   │   ├── [-rw-r--r--]  profiler.py
+    │       │   │   │   ├── [-rw-r--r--]  profiler.pyc
+    │       │   │   │   ├── [-rw-r--r--]  proxy_fix.py
+    │       │   │   │   ├── [-rw-r--r--]  proxy_fix.pyc
+    │       │   │   │   ├── [-rw-r--r--]  shared_data.py
+    │       │   │   │   └── [-rw-r--r--]  shared_data.pyc
+    │       │   │   ├── [-rw-r--r--]  posixemulation.py
+    │       │   │   ├── [-rw-r--r--]  posixemulation.pyc
+    │       │   │   ├── [-rw-r--r--]  _reloader.py
+    │       │   │   ├── [-rw-r--r--]  _reloader.pyc
+    │       │   │   ├── [-rw-r--r--]  routing.py
+    │       │   │   ├── [-rw-r--r--]  routing.pyc
+    │       │   │   ├── [-rw-r--r--]  security.py
+    │       │   │   ├── [-rw-r--r--]  security.pyc
+    │       │   │   ├── [-rw-r--r--]  serving.py
+    │       │   │   ├── [-rw-r--r--]  serving.pyc
+    │       │   │   ├── [-rw-r--r--]  testapp.py
+    │       │   │   ├── [-rw-r--r--]  testapp.pyc
+    │       │   │   ├── [-rw-r--r--]  test.py
+    │       │   │   ├── [-rw-r--r--]  test.pyc
+    │       │   │   ├── [-rw-r--r--]  urls.py
+    │       │   │   ├── [-rw-r--r--]  urls.pyc
+    │       │   │   ├── [-rw-r--r--]  useragents.py
+    │       │   │   ├── [-rw-r--r--]  useragents.pyc
+    │       │   │   ├── [-rw-r--r--]  utils.py
+    │       │   │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │   ├── [drwxr-xr-x]  wrappers
+    │       │   │   │   ├── [-rw-r--r--]  accept.py
+    │       │   │   │   ├── [-rw-r--r--]  accept.pyc
+    │       │   │   │   ├── [-rw-r--r--]  auth.py
+    │       │   │   │   ├── [-rw-r--r--]  auth.pyc
+    │       │   │   │   ├── [-rw-r--r--]  base_request.py
+    │       │   │   │   ├── [-rw-r--r--]  base_request.pyc
+    │       │   │   │   ├── [-rw-r--r--]  base_response.py
+    │       │   │   │   ├── [-rw-r--r--]  base_response.pyc
+    │       │   │   │   ├── [-rw-r--r--]  common_descriptors.py
+    │       │   │   │   ├── [-rw-r--r--]  common_descriptors.pyc
+    │       │   │   │   ├── [-rw-r--r--]  etag.py
+    │       │   │   │   ├── [-rw-r--r--]  etag.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  json.py
+    │       │   │   │   ├── [-rw-r--r--]  json.pyc
+    │       │   │   │   ├── [-rw-r--r--]  request.py
+    │       │   │   │   ├── [-rw-r--r--]  request.pyc
+    │       │   │   │   ├── [-rw-r--r--]  response.py
+    │       │   │   │   ├── [-rw-r--r--]  response.pyc
+    │       │   │   │   ├── [-rw-r--r--]  user_agent.py
+    │       │   │   │   └── [-rw-r--r--]  user_agent.pyc
+    │       │   │   ├── [-rw-r--r--]  wsgi.py
+    │       │   │   └── [-rw-r--r--]  wsgi.pyc
+    │       │   ├── [drwxr-xr-x]  Werkzeug-0.15.5.dist-info
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE.rst
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  wheel
+    │       │   │   ├── [-rw-r--r--]  bdist_wheel.py
+    │       │   │   ├── [-rw-r--r--]  bdist_wheel.pyc
+    │       │   │   ├── [drwxr-xr-x]  cli
+    │       │   │   │   ├── [-rw-r--r--]  convert.py
+    │       │   │   │   ├── [-rw-r--r--]  convert.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  pack.py
+    │       │   │   │   ├── [-rw-r--r--]  pack.pyc
+    │       │   │   │   ├── [-rw-r--r--]  unpack.py
+    │       │   │   │   └── [-rw-r--r--]  unpack.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [-rw-r--r--]  __main__.py
+    │       │   │   ├── [-rw-r--r--]  __main__.pyc
+    │       │   │   ├── [-rw-r--r--]  metadata.py
+    │       │   │   ├── [-rw-r--r--]  metadata.pyc
+    │       │   │   ├── [-rw-r--r--]  pep425tags.py
+    │       │   │   ├── [-rw-r--r--]  pep425tags.pyc
+    │       │   │   ├── [-rw-r--r--]  pkginfo.py
+    │       │   │   ├── [-rw-r--r--]  pkginfo.pyc
+    │       │   │   ├── [-rw-r--r--]  util.py
+    │       │   │   ├── [-rw-r--r--]  util.pyc
+    │       │   │   ├── [-rw-r--r--]  wheelfile.py
+    │       │   │   └── [-rw-r--r--]  wheelfile.pyc
+    │       │   ├── [drwxr-xr-x]  wheel-0.33.6.dist-info
+    │       │   │   ├── [-rw-r--r--]  entry_points.txt
+    │       │   │   ├── [-rw-r--r--]  INSTALLER
+    │       │   │   ├── [-rw-r--r--]  LICENSE.txt
+    │       │   │   ├── [-rw-r--r--]  METADATA
+    │       │   │   ├── [-rw-r--r--]  RECORD
+    │       │   │   ├── [-rw-r--r--]  top_level.txt
+    │       │   │   └── [-rw-r--r--]  WHEEL
+    │       │   ├── [drwxr-xr-x]  wtforms
+    │       │   │   ├── [-rw-r--r--]  compat.py
+    │       │   │   ├── [-rw-r--r--]  compat.pyc
+    │       │   │   ├── [drwxr-xr-x]  csrf
+    │       │   │   │   ├── [-rw-r--r--]  core.py
+    │       │   │   │   ├── [-rw-r--r--]  core.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  session.py
+    │       │   │   │   └── [-rw-r--r--]  session.pyc
+    │       │   │   ├── [drwxr-xr-x]  ext
+    │       │   │   │   ├── [drwxr-xr-x]  appengine
+    │       │   │   │   │   ├── [-rw-r--r--]  db.py
+    │       │   │   │   │   ├── [-rw-r--r--]  db.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  fields.py
+    │       │   │   │   │   ├── [-rw-r--r--]  fields.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  ndb.py
+    │       │   │   │   │   └── [-rw-r--r--]  ndb.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  csrf
+    │       │   │   │   │   ├── [-rw-r--r--]  fields.py
+    │       │   │   │   │   ├── [-rw-r--r--]  fields.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  form.py
+    │       │   │   │   │   ├── [-rw-r--r--]  form.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  session.py
+    │       │   │   │   │   └── [-rw-r--r--]  session.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  dateutil
+    │       │   │   │   │   ├── [-rw-r--r--]  fields.py
+    │       │   │   │   │   ├── [-rw-r--r--]  fields.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   └── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  django
+    │       │   │   │   │   ├── [-rw-r--r--]  fields.py
+    │       │   │   │   │   ├── [-rw-r--r--]  fields.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  i18n.py
+    │       │   │   │   │   ├── [-rw-r--r--]  i18n.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  orm.py
+    │       │   │   │   │   ├── [-rw-r--r--]  orm.pyc
+    │       │   │   │   │   └── [drwxr-xr-x]  templatetags
+    │       │   │   │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.py
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.pyc
+    │       │   │   │   ├── [drwxr-xr-x]  i18n
+    │       │   │   │   │   ├── [-rw-r--r--]  form.py
+    │       │   │   │   │   ├── [-rw-r--r--]  form.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   │   ├── [-rw-r--r--]  utils.py
+    │       │   │   │   │   └── [-rw-r--r--]  utils.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   └── [drwxr-xr-x]  sqlalchemy
+    │       │   │   │       ├── [-rw-r--r--]  fields.py
+    │       │   │   │       ├── [-rw-r--r--]  fields.pyc
+    │       │   │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │   │       ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │       ├── [-rw-r--r--]  orm.py
+    │       │   │   │       └── [-rw-r--r--]  orm.pyc
+    │       │   │   ├── [drwxr-xr-x]  fields
+    │       │   │   │   ├── [-rw-r--r--]  core.py
+    │       │   │   │   ├── [-rw-r--r--]  core.pyc
+    │       │   │   │   ├── [-rw-r--r--]  html5.py
+    │       │   │   │   ├── [-rw-r--r--]  html5.pyc
+    │       │   │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   │   ├── [-rw-r--r--]  simple.py
+    │       │   │   │   └── [-rw-r--r--]  simple.pyc
+    │       │   │   ├── [-rw-r--r--]  form.py
+    │       │   │   ├── [-rw-r--r--]  form.pyc
+    │       │   │   ├── [-rw-r--r--]  i18n.py
+    │       │   │   ├── [-rw-r--r--]  i18n.pyc
+    │       │   │   ├── [-rw-r--r--]  __init__.py
+    │       │   │   ├── [-rw-r--r--]  __init__.pyc
+    │       │   │   ├── [drwxr-xr-x]  locale
+    │       │   │   │   ├── [drwxr-xr-x]  ar
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  bg
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  ca
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  cs_CZ
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  cy
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  de
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  de_CH
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  el
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  en
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  es
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  et
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  fa
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  fi
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  fr
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  he
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  hu
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  it
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  ja
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  ko
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  nb
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  nl
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  pl
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  pt
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [-rw-r--r--]  README.md
+    │       │   │   │   ├── [drwxr-xr-x]  ru
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  sk
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  sv
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  tr
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [drwxr-xr-x]  uk
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   ├── [-rw-r--r--]  wtforms.pot
+    │       │   │   │   ├── [drwxr-xr-x]  zh
+    │       │   │   │   │   └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │   │       ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │   │       └── [-rw-r--r--]  wtforms.po
+    │       │   │   │   └── [drwxr-xr-x]  zh_TW
+    │       │   │   │       └── [drwxr-xr-x]  LC_MESSAGES
+    │       │   │   │           ├── [-rw-r--r--]  wtforms.mo
+    │       │   │   │           └── [-rw-r--r--]  wtforms.po
+    │       │   │   ├── [-rw-r--r--]  meta.py
+    │       │   │   ├── [-rw-r--r--]  meta.pyc
+    │       │   │   ├── [-rw-r--r--]  utils.py
+    │       │   │   ├── [-rw-r--r--]  utils.pyc
+    │       │   │   ├── [-rw-r--r--]  validators.py
+    │       │   │   ├── [-rw-r--r--]  validators.pyc
+    │       │   │   └── [drwxr-xr-x]  widgets
+    │       │   │       ├── [-rw-r--r--]  core.py
+    │       │   │       ├── [-rw-r--r--]  core.pyc
+    │       │   │       ├── [-rw-r--r--]  html5.py
+    │       │   │       ├── [-rw-r--r--]  html5.pyc
+    │       │   │       ├── [-rw-r--r--]  __init__.py
+    │       │   │       └── [-rw-r--r--]  __init__.pyc
+    │       │   └── [drwxr-xr-x]  WTForms-2.2.1.dist-info
+    │       │       ├── [-rw-r--r--]  INSTALLER
+    │       │       ├── [-rw-r--r--]  METADATA
+    │       │       ├── [-rw-r--r--]  RECORD
+    │       │       ├── [-rw-r--r--]  top_level.txt
+    │       │       └── [-rw-r--r--]  WHEEL
+    │       ├── [-rw-r--r--]  site.py
+    │       ├── [-rw-r--r--]  site.pyc
+    │       ├── [lrwxrwxrwx]  sre_compile.py -> /usr/lib/python2.7/sre_compile.py
+    │       ├── [-rw-r--r--]  sre_compile.pyc
+    │       ├── [lrwxrwxrwx]  sre_constants.py -> /usr/lib/python2.7/sre_constants.py
+    │       ├── [-rw-r--r--]  sre_constants.pyc
+    │       ├── [lrwxrwxrwx]  sre_parse.py -> /usr/lib/python2.7/sre_parse.py
+    │       ├── [-rw-r--r--]  sre_parse.pyc
+    │       ├── [lrwxrwxrwx]  sre.py -> /usr/lib/python2.7/sre.py
+    │       ├── [lrwxrwxrwx]  stat.py -> /usr/lib/python2.7/stat.py
+    │       ├── [-rw-r--r--]  stat.pyc
+    │       ├── [lrwxrwxrwx]  types.py -> /usr/lib/python2.7/types.py
+    │       ├── [-rw-r--r--]  types.pyc
+    │       ├── [lrwxrwxrwx]  UserDict.py -> /usr/lib/python2.7/UserDict.py
+    │       ├── [-rw-r--r--]  UserDict.pyc
+    │       ├── [lrwxrwxrwx]  warnings.py -> /usr/lib/python2.7/warnings.py
+    │       ├── [-rw-r--r--]  warnings.pyc
+    │       ├── [lrwxrwxrwx]  _weakrefset.py -> /usr/lib/python2.7/_weakrefset.py
+    │       └── [-rw-r--r--]  _weakrefset.pyc
+    ├── [drwxr-xr-x]  local
+    │   ├── [lrwxrwxrwx]  bin -> /home/mig/Documents/hello/flasky/venv/bin
+    │   ├── [lrwxrwxrwx]  include -> /home/mig/Documents/hello/flasky/venv/include
+    │   └── [lrwxrwxrwx]  lib -> /home/mig/Documents/hello/flasky/venv/lib
+    └── [drwxr-xr-x]  share
+        └── [drwxr-xr-x]  python-wheels
+            ├── [-rw-r--r--]  appdirs-1.4.3-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  CacheControl-0.11.7-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  certifi-2018.1.18-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  chardet-3.0.4-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  colorama-0.3.7-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  distlib-0.2.6-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  distro-1.0.1-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  html5lib-0.999999999-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  idna-2.6-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  ipaddress-0.0.0-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  lockfile-0.12.2-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  packaging-17.1-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  pip-9.0.1-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  pkg_resources-0.0.0-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  progress-1.2-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  pyparsing-2.2.0-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  requests-2.18.4-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  retrying-1.3.3-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  setuptools-39.0.1-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  six-1.11.0-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  urllib3-1.22-py2.py3-none-any.whl
+            ├── [-rw-r--r--]  webencodings-0.5-py2.py3-none-any.whl
+            └── [-rw-r--r--]  wheel-0.30.0-py2.py3-none-any.whl
+
+235 directories, 2375 files

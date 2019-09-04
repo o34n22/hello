@@ -8,7 +8,7 @@ from wtforms.validators import Required
 from flask_sqlalchemy import SQLAlchemy
 import logging
 from datetime import datetime
-import mathplay.arithmetic.nearest_number_2 as nn
+import mathplay.arithmetic.nearest_number_3 as nn
 
 # --------------- logging -----------------------------------------------
 #logger = logging.getLogger(__name__)
@@ -72,20 +72,17 @@ def page4():
 #    answer = None
     num = session.get('number')
     if num is None:
-        session['number'] = nn.make_n1()
+        session['number'] = nn.pose()
     form = IntForm()
     if form.validate_on_submit():
         session['answer'] = form.answer.data # overwrite any existing answer
-        if form.answer.data == int(nn.find_nearest(num)): # answer correct
+        if form.answer.data == int(nn.solve(num)): # answer correct
             cent = Cent()
             db.session.add(cent)
             db.session.commit()
             session['number'] = None
-        elif str(form.answer.data) in nn.permutations(session.get('number')): # answer incorrect
-            flash('It seems there is a number yet nearer to 500.')
         else:
-            flash('Digits aren\'t matching. You must use the digits from \
-                  the number given.')
+            flash(nn.wrong(num,form.answer.data))
         return redirect(url_for('page4'))
     return render_template('page4.html', form=form,\
                            number=session.get('number'), answer=session.get('answer'))

@@ -346,3 +346,156 @@ INFO: 2019-09-02 10:38:31,308  * Detected change in '/home/mig/Documents/hello/h
 INFO: 2019-09-02 10:38:31,335  * Restarting with stat
 WARNING: 2019-09-02 10:38:31,610  * Debugger is active!
 INFO: 2019-09-02 10:38:31,611  * Debugger PIN: 209-981-609
+INFO: 2019-09-02 11:43:07,637 The CSRF token has expired.
+INFO: 2019-09-02 11:43:07,720 127.0.0.1 - - [02/Sep/2019 11:43:07] "POST /page4 HTTP/1.1" 200 -
+INFO: 2019-09-02 11:43:11,929 127.0.0.1 - - [02/Sep/2019 11:43:11] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-02 11:43:11,948 127.0.0.1 - - [02/Sep/2019 11:43:11] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-02 11:43:14,327 127.0.0.1 - - [02/Sep/2019 11:43:14] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-02 11:43:14,346 127.0.0.1 - - [02/Sep/2019 11:43:14] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-02 11:43:17,816 127.0.0.1 - - [02/Sep/2019 11:43:17] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-02 11:43:17,831 127.0.0.1 - - [02/Sep/2019 11:43:17] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-02 11:43:22,761 127.0.0.1 - - [02/Sep/2019 11:43:22] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-02 11:43:22,775 127.0.0.1 - - [02/Sep/2019 11:43:22] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-02 11:43:26,333 127.0.0.1 - - [02/Sep/2019 11:43:26] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-02 11:43:26,349 127.0.0.1 - - [02/Sep/2019 11:43:26] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-02 11:43:33,132 127.0.0.1 - - [02/Sep/2019 11:43:33] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-02 11:43:33,154 127.0.0.1 - - [02/Sep/2019 11:43:33] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-02 11:43:35,212 127.0.0.1 - - [02/Sep/2019 11:43:35] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-02 11:43:35,230 127.0.0.1 - - [02/Sep/2019 11:43:35] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 10:00:05,258  * Detected change in '/home/mig/.local/lib/python2.7/site-packages/numpy/fft/fftpack_lite.so', reloading
+INFO: 2019-09-03 11:12:18,298  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2019-09-03 11:12:18,299  * Restarting with stat
+WARNING: 2019-09-03 11:12:18,577  * Debugger is active!
+INFO: 2019-09-03 11:12:18,578  * Debugger PIN: 209-981-609
+INFO: 2019-09-03 11:12:22,088 The CSRF token has expired.
+INFO: 2019-09-03 11:12:22,173 127.0.0.1 - - [03/Sep/2019 11:12:22] "POST /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:12:22,415 127.0.0.1 - - [03/Sep/2019 11:12:22] "GET /static/favicon.ico HTTP/1.1" 200 -
+ERROR: 2019-09-03 11:12:22,417 Error on request:
+Traceback (most recent call last):
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO: 2019-09-03 11:12:28,152 127.0.0.1 - - [03/Sep/2019 11:12:28] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:12:28,170 127.0.0.1 - - [03/Sep/2019 11:12:28] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:12:37,079 127.0.0.1 - - [03/Sep/2019 11:12:37] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:12:37,097 127.0.0.1 - - [03/Sep/2019 11:12:37] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:12:40,550 127.0.0.1 - - [03/Sep/2019 11:12:40] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:12:40,563 127.0.0.1 - - [03/Sep/2019 11:12:40] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:12:43,068 127.0.0.1 - - [03/Sep/2019 11:12:43] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:12:43,094 127.0.0.1 - - [03/Sep/2019 11:12:43] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:12:45,981 127.0.0.1 - - [03/Sep/2019 11:12:45] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:12:46,015 127.0.0.1 - - [03/Sep/2019 11:12:46] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:12:49,167 127.0.0.1 - - [03/Sep/2019 11:12:49] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:12:49,189 127.0.0.1 - - [03/Sep/2019 11:12:49] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:12:53,523 127.0.0.1 - - [03/Sep/2019 11:12:53] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:12:53,547 127.0.0.1 - - [03/Sep/2019 11:12:53] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:12:57,345 127.0.0.1 - - [03/Sep/2019 11:12:57] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:12:57,362 127.0.0.1 - - [03/Sep/2019 11:12:57] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:12:59,569 127.0.0.1 - - [03/Sep/2019 11:12:59] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:12:59,583 127.0.0.1 - - [03/Sep/2019 11:12:59] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 11:13:03,430 127.0.0.1 - - [03/Sep/2019 11:13:03] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 11:13:03,446 127.0.0.1 - - [03/Sep/2019 11:13:03] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 12:15:26,790 The CSRF token has expired.
+INFO: 2019-09-03 12:15:26,792 127.0.0.1 - - [03/Sep/2019 12:15:26] "POST /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 12:15:29,251 127.0.0.1 - - [03/Sep/2019 12:15:29] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 12:15:29,268 127.0.0.1 - - [03/Sep/2019 12:15:29] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 12:15:32,867 127.0.0.1 - - [03/Sep/2019 12:15:32] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 12:15:32,883 127.0.0.1 - - [03/Sep/2019 12:15:32] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 12:15:35,924 127.0.0.1 - - [03/Sep/2019 12:15:35] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 12:15:35,938 127.0.0.1 - - [03/Sep/2019 12:15:35] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 12:15:39,325 127.0.0.1 - - [03/Sep/2019 12:15:39] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-03 12:15:39,340 127.0.0.1 - - [03/Sep/2019 12:15:39] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-03 14:13:31,657  * Detected change in '/home/mig/Documents/hello/hello_.py', reloading
+INFO: 2019-09-03 14:13:31,709  * Restarting with stat
+WARNING: 2019-09-03 14:13:32,181  * Debugger is active!
+INFO: 2019-09-03 14:13:32,182  * Debugger PIN: 209-981-609
+INFO: 2019-09-04 13:06:45,020 The CSRF token has expired.
+INFO: 2019-09-04 13:06:45,116 127.0.0.1 - - [04/Sep/2019 13:06:45] "POST /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:06:45,360 127.0.0.1 - - [04/Sep/2019 13:06:45] "GET /static/favicon.ico HTTP/1.1" 200 -
+ERROR: 2019-09-04 13:06:45,362 Error on request:
+Traceback (most recent call last):
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 294, in execute
+    write(data)
+  File "/home/mig/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 257, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO: 2019-09-04 13:06:50,942 127.0.0.1 - - [04/Sep/2019 13:06:50] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:06:50,966 127.0.0.1 - - [04/Sep/2019 13:06:50] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:06:54,430 127.0.0.1 - - [04/Sep/2019 13:06:54] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:06:54,454 127.0.0.1 - - [04/Sep/2019 13:06:54] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:07:00,770 127.0.0.1 - - [04/Sep/2019 13:07:00] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:07:00,801 127.0.0.1 - - [04/Sep/2019 13:07:00] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:07:04,135 127.0.0.1 - - [04/Sep/2019 13:07:04] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:07:04,150 127.0.0.1 - - [04/Sep/2019 13:07:04] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:07:06,617 127.0.0.1 - - [04/Sep/2019 13:07:06] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:07:06,634 127.0.0.1 - - [04/Sep/2019 13:07:06] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:07:08,706 127.0.0.1 - - [04/Sep/2019 13:07:08] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:07:08,722 127.0.0.1 - - [04/Sep/2019 13:07:08] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:07:12,599 127.0.0.1 - - [04/Sep/2019 13:07:12] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:07:12,619 127.0.0.1 - - [04/Sep/2019 13:07:12] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:07:15,922 127.0.0.1 - - [04/Sep/2019 13:07:15] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:07:15,941 127.0.0.1 - - [04/Sep/2019 13:07:15] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:46:45,176  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO: 2019-09-04 13:46:45,177  * Restarting with stat
+WARNING: 2019-09-04 13:46:45,453  * Debugger is active!
+INFO: 2019-09-04 13:46:45,454  * Debugger PIN: 209-981-609
+INFO: 2019-09-04 13:46:53,551 127.0.0.1 - - [04/Sep/2019 13:46:53] "POST /page4 HTTP/1.1" 500 -
+INFO: 2019-09-04 13:46:53,674 127.0.0.1 - - [04/Sep/2019 13:46:53] "GET /page4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO: 2019-09-04 13:46:53,679 127.0.0.1 - - [04/Sep/2019 13:46:53] "GET /page4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO: 2019-09-04 13:46:53,680 127.0.0.1 - - [04/Sep/2019 13:46:53] "GET /page4?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO: 2019-09-04 13:46:53,779 127.0.0.1 - - [04/Sep/2019 13:46:53] "GET /page4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO: 2019-09-04 13:46:53,830 127.0.0.1 - - [04/Sep/2019 13:46:53] "GET /page4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO: 2019-09-04 13:47:21,793  * Detected change in '/home/mig/Documents/hello/hello__.py', reloading
+INFO: 2019-09-04 13:47:21,822  * Restarting with stat
+WARNING: 2019-09-04 13:47:22,112  * Debugger is active!
+INFO: 2019-09-04 13:47:22,113  * Debugger PIN: 209-981-609
+INFO: 2019-09-04 13:47:25,937 127.0.0.1 - - [04/Sep/2019 13:47:25] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:47:26,034 127.0.0.1 - - [04/Sep/2019 13:47:26] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:47:30,506 127.0.0.1 - - [04/Sep/2019 13:47:30] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:47:30,519 127.0.0.1 - - [04/Sep/2019 13:47:30] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:47:35,104 127.0.0.1 - - [04/Sep/2019 13:47:35] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:47:35,119 127.0.0.1 - - [04/Sep/2019 13:47:35] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:47:38,631 127.0.0.1 - - [04/Sep/2019 13:47:38] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:47:38,654 127.0.0.1 - - [04/Sep/2019 13:47:38] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:47:41,763 127.0.0.1 - - [04/Sep/2019 13:47:41] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:47:41,780 127.0.0.1 - - [04/Sep/2019 13:47:41] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:47:53,584 127.0.0.1 - - [04/Sep/2019 13:47:53] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:47:53,604 127.0.0.1 - - [04/Sep/2019 13:47:53] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:48:00,168 127.0.0.1 - - [04/Sep/2019 13:48:00] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:48:00,189 127.0.0.1 - - [04/Sep/2019 13:48:00] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:48:13,892 127.0.0.1 - - [04/Sep/2019 13:48:13] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:48:13,916 127.0.0.1 - - [04/Sep/2019 13:48:13] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:48:20,071 127.0.0.1 - - [04/Sep/2019 13:48:20] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:48:20,088 127.0.0.1 - - [04/Sep/2019 13:48:20] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:48:22,500 127.0.0.1 - - [04/Sep/2019 13:48:22] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:48:22,515 127.0.0.1 - - [04/Sep/2019 13:48:22] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:48:27,770 127.0.0.1 - - [04/Sep/2019 13:48:27] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:48:27,785 127.0.0.1 - - [04/Sep/2019 13:48:27] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:48:33,667 127.0.0.1 - - [04/Sep/2019 13:48:33] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:48:33,689 127.0.0.1 - - [04/Sep/2019 13:48:33] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:49:19,179  * Detected change in '/home/mig/Documents/hello/mathplay/arithmetic/nearest_number_3.py', reloading
+INFO: 2019-09-04 13:49:19,207  * Restarting with stat
+WARNING: 2019-09-04 13:49:19,507  * Debugger is active!
+INFO: 2019-09-04 13:49:19,508  * Debugger PIN: 209-981-609
+INFO: 2019-09-04 13:49:48,787  * Detected change in '/home/mig/Documents/hello/mathplay/arithmetic/nearest_number_3.py', reloading
+INFO: 2019-09-04 13:49:48,816  * Restarting with stat
+WARNING: 2019-09-04 13:49:49,095  * Debugger is active!
+INFO: 2019-09-04 13:49:49,095  * Debugger PIN: 209-981-609
+INFO: 2019-09-04 13:49:52,705 127.0.0.1 - - [04/Sep/2019 13:49:52] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:49:52,816 127.0.0.1 - - [04/Sep/2019 13:49:52] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:49:56,033 127.0.0.1 - - [04/Sep/2019 13:49:56] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:49:56,050 127.0.0.1 - - [04/Sep/2019 13:49:56] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:50:01,425 127.0.0.1 - - [04/Sep/2019 13:50:01] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:50:01,447 127.0.0.1 - - [04/Sep/2019 13:50:01] "GET /page4 HTTP/1.1" 200 -
+INFO: 2019-09-04 13:50:04,331 127.0.0.1 - - [04/Sep/2019 13:50:04] "POST /page4 HTTP/1.1" 302 -
+INFO: 2019-09-04 13:50:04,349 127.0.0.1 - - [04/Sep/2019 13:50:04] "GET /page4 HTTP/1.1" 200 -
